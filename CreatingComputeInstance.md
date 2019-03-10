@@ -80,7 +80,11 @@ provide cloud init script
 
 ![](resources/compute-instance-being-provisioned.png)
 
+Instance provisioned
+
 ![](resources/compute-instance-provisioned.png)
+
+Make a note of public ip address
 
 ## Connecting To Provisioned Instance 
 

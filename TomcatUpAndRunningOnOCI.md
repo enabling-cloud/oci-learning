@@ -17,6 +17,9 @@
 
 ## Installation
 
+Following the instruction [here](CreatingComputeInstance.md#connecting-to-provisioned-instance) to ssh into **130.61.54.64** (Public ip address of tomcat instance, just created)
+
+
 Install Tomcat
 
 ```Powershell
@@ -77,6 +80,7 @@ success
 ## Amend Security List
 
 Go to VCNs
+
 ![](resources/goto-vcn.png)
 
 Click on the concerned VCN
