@@ -229,13 +229,67 @@ Goto Public IP Address : jenkins port
 
 ## Configure Master/Slave
 
+### Step 1 :  Install Jenkins OCI Plugin
+
+![](resources/jenkins-oci-plugin.png)
+
+
+### Step 2 : Configure Jenkins OCI Plugin
+
+![](resources/jenkins-add-new-cloud.png)
+
+API Key = [opc@jenkins-instance .oci]$ cat oci_api_key.pem
+
+Fingerprint = finger print from file { [opc@jenkins-instance .oci] cat config ]
+
+![](resources/jenkins-compute-configuration.png)
+
+
+![](resources/jenkins-add-new-instance-template.png)
+
+
 ```Powershell
+nadeemoh@NADEEMOH-LAP MINGW64 ~/.ssh
+$ clip < id_rsa.pub
+
+nadeemoh@NADEEMOH-LAP MINGW64 ~/.ssh$
 
 ```
 
 ```Powershell
+nadeemoh@NADEEMOH-LAP MINGW64 ~/.ssh
+$ clip < id_rsa
+
+nadeemoh@NADEEMOH-LAP MINGW64 ~/.ssh
+$
 
 ```
+
+![](resources/jenkins-instance-template.png)
+
+![](resources/jenkins-instance-template-advance-click.png)
+
+![](resources/jenkins-instance-template-advance.png)
+
+Click **Save**
+
+### Step 3 : Build Executor
+
+![](resources/jenkins-build-executor.png)
+
+![](resources/jenkins-provision-new-slave.png)
+
+![](resources/jenkins-slave-provision-started.png)
+
+![](resources/jenkins-oci-slave-being-provisioned.png)
+
+
+
+![](resources/jenkins-oci-instance-being-provisioned.png)
+
+![](resources/jenkins-slave-provisioned.png)
+
+![](resources/jenkins-oci-slave-provisioned.png)
 
 
 
@@ -250,3 +304,6 @@ Refer [this](CreatingComputeInstance.md#termination) for more details
 
 Refer [this](CreatingVCN.md#terminating-vcn) for more details
 
+# References
+
+* [Jenkins OCI Plugin](https://plugins.jenkins.io/oracle-cloud-infrastructure-compute)
