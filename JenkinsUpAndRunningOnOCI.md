@@ -212,18 +212,27 @@ Goto Public IP Address : jenkins port
 [opc@jenkins-instance .oci]$
 
 ```
+Admin first time login, use above password
 
 ![](resources/jenkins-admin-login.png)
 
+customize
+
 ![](resources/jenkins-customize.png)
+
+Plugins being installed
 
 ![](resources/jenkins-plugins-install.png)
 
+Configure first admin
+
 ![](resources/jenkins-first-admin.png)
 
-![](resources/jenkins-instance-config.png)
+Jenkins network config
 
 ![](resources/jenkins-instance-config.png)
+
+Jenkins is ready to use
 
 ![](resources/jenkins-ready.png)
 
@@ -244,9 +253,12 @@ Fingerprint = finger print from file { [opc@jenkins-instance .oci] cat config ]
 
 ![](resources/jenkins-compute-configuration.png)
 
+Click on **Add a new instance template**
 
 ![](resources/jenkins-add-new-instance-template.png)
 
+
+Copy **SSH Public Key** to be used below, item 9
 
 ```Powershell
 nadeem@nadeem-LAP MINGW64 ~/.ssh
@@ -255,6 +267,8 @@ $ clip < id_rsa.pub
 nadeem@nadeem-LAP MINGW64 ~/.ssh$
 
 ```
+
+Copy **SSH Private Key** to be used below, item 10
 
 ```Powershell
 nadeem@nadeem-LAP MINGW64 ~/.ssh
@@ -265,9 +279,14 @@ $
 
 ```
 
+
 ![](resources/jenkins-instance-template.png)
 
+Click on **Advanced**
+
 ![](resources/jenkins-instance-template-advance-click.png)
+
+Make sure to provide `sudo yum install java -y` for init script
 
 ![](resources/jenkins-instance-template-advance.png)
 
@@ -275,17 +294,24 @@ Click **Save**
 
 ### Step 3 : Build Executor
 
+Click on **Build Executor Status**
+
 ![](resources/jenkins-build-executor.png)
+
+Click on **Jenkins-Slave** to provision new node
 
 ![](resources/jenkins-provision-new-slave.png)
 
+Node provisioning started
+
 ![](resources/jenkins-slave-provision-started.png)
 
-![](resources/jenkins-oci-slave-being-provisioned.png)
-
-
+OCI compute VM being provisioned
 
 ![](resources/jenkins-oci-instance-being-provisioned.png)
+
+
+Node provisioned
 
 ![](resources/jenkins-slave-provisioned.png)
 
