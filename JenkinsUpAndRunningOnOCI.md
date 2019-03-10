@@ -10,8 +10,19 @@
 
 [Creating VCN](CreatingVCN.md)
 
+### Compute Instance
 
-## Installation
+[Create Compute Instance](CreatingComputeInstance.md)
+
+
+## Install OCI Command Line Tool on Jenkins Compute Instance
+
+ 
+## Install Jenkins In The Provisioned Instance
+
+
+
+## Configure Master/Slave
 
 ```Powershell
 
@@ -25,9 +36,12 @@
 
 ## Clean Up 
 
-```Powershell
 
-```
+### Compute Instance
 
-## References
-* 
+Refer [this](CreatingComputeInstance.md#termination) for more details
+
+### VCN
+
+Refer [this](CreatingVCN.md#terminating-vcn) for more details
+
