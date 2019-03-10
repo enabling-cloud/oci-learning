@@ -1,11 +1,8 @@
 # Oracle Cloud Infrastructure (OCI) Learning 
 
 
+# Manual 
 
-
-
-
-# Pages
 |    **Name**   | **Duration** |
 | ------------- |-----:|
 |[**Generating SSH Key Pair**](GeneratingSshKey.md)|5 minutes|
@@ -16,8 +13,15 @@
 |[**Jenkins Up And Running On OCI**](JenkinsUpAndRunningOnOCI.md)|25 minutes|
 
 
+# Terraform 
+
+|    **Name**   | **Duration** |
+| ------------- |-----:|
+|TODO||
+
 
 # References
+
 * [OCI Intro](https://docs.cloud.oracle.com/iaas/Content/GSG/Concepts/baremetalintro.htm)
 * [Sign Up For Tenancy](https://docs.cloud.oracle.com/iaas/Content/GSG/Concepts/settinguptenancy.htm?tocpath=Getting%20Started%7C_____14#two)
 * [Key Concepts and Terminology](https://docs.cloud.oracle.com/iaas/Content/GSG/Concepts/concepts.htm?tocpath=Getting%20Started%7C_____1)
