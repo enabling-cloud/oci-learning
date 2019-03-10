@@ -17,19 +17,24 @@
 
 ## Installation
 
+Install Tomcat
+
 ```Powershell
 [opc@tomcat-instance ~]$ sudo yum install -y tomcat tomcat-webapps tomcat-admin-webapps
 ```
+Enable the Tomcat service with `systemctl` command, so it starts on server boot
 
 ```Powershell
 [opc@tomcat-instance ~]$  sudo systemctl enable tomcat
 Created symlink from /etc/systemd/system/multi-user.target.wants/tomcat.service to /usr/lib/systemd/system/tomcat.service.
 
 ```
+Start the Tomcat service with this `systemctl` command
 
 ```Powershell
 [opc@tomcat-instance ~]$  sudo systemctl start tomcat
 ```
+Check the service started successfuly using the following command 
 
 ```Powershell
 [opc@tomcat-instance ~]$ sudo systemctl status tomcat
@@ -71,18 +76,30 @@ success
 ```
 ## Amend Security List
 
+Go to VCNs
 ![](resources/goto-vcn.png)
+
+Click on the concerned VCN
 
 ![](resources/vcn-details2.png)
 
+Compute instance is available on AD1, click on corresponding subnet security list.
+
 ![](resources/vcn-ad1-security-list.png)
 
+Click on Edit all rules
 
 ![](resources/edit-default-security-list.png)
 
+Add ingress rule, from anywhere to TCP port 8080
+
 ![](resources/ingress-8080-tcp.png)
 
+Rule added
+
 ![](resources/ingress-8080-tcp-added.png)
+
+Click on save
 
 ![](resources/save-security-list.png)
 
@@ -102,6 +119,4 @@ Refer [this](CreatingComputeInstance.md#termination) for more details
 
 Refer [this](CreatingVCN.md#terminating-vcn) for more details
 
-# References
-* 
 
