@@ -1,5 +1,9 @@
 # Creating Compute Instance
 
+Lets provision the following infrastructure
+
+![](resources/components-tobe-created.png)
+
 ## Prerequisites
 
 ### SSH
@@ -83,7 +87,7 @@ provide cloud init script
 
 ### Step 1 :  Connect Using SSH Tool
 
-##### Note : opc is the default user
+##### Note : _opc_ is the default user
 
 ![](resources/compute-instance-connect-options.png)
 
@@ -135,12 +139,13 @@ Confirm
 
 ![](resources/compute-instance-being-terminated.png)
 
-Termincated
+Terminated
 
 ![](resources/compute-instance-terminated.png)
 
 
 
 ## References
-*
-*
+
+* [Launching your first linux instance](https://docs.cloud.oracle.com/iaas/Content/GSG/Reference/overviewworkflow.htm)
+* [Bastion Host](http://wiki-tbe.us.oracle.com/download/attachments/64660285/Bastion.vsdx?version=2&modificationDate=1551638194000&api=v2)
