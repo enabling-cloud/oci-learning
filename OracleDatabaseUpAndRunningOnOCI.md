@@ -1,5 +1,9 @@
 # Oracle Database UP And Running On Oracle Cloud Infrastructure (OCI)
 
+Lets provision the following infrastructure
+
+![](resources/db-infrastructure.png)
+
 ## Prerequisites
 
 ### SSH
