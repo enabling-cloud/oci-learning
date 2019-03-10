@@ -96,7 +96,7 @@ goto compute-instance public ip address : tomcat port
 
 ### Compute Instance
 
-Refer [this](CreatingComputeInstance.md#termincation) for more details
+Refer [this](CreatingComputeInstance.md#termination) for more details
 
 ### VCN
 
