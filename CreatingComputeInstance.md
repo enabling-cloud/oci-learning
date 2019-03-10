@@ -149,3 +149,4 @@ Terminated
 
 * [Launching your first linux instance](https://docs.cloud.oracle.com/iaas/Content/GSG/Reference/overviewworkflow.htm)
 * [Bastion Host](http://wiki-tbe.us.oracle.com/download/attachments/64660285/Bastion.vsdx?version=2&modificationDate=1551638194000&api=v2)
+* [Graphics for Topologies and Diagrams](https://docs.cloud.oracle.com/iaas/Content/General/Reference/graphicsfordiagrams.htm)
