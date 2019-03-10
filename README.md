@@ -12,6 +12,7 @@
 |[**Creating VCN**](CreatingVCN.md)|10 minutes|
 |[**Creating Compute Instance**](CreatingComputeInstance.md)|15 minutes|
 |[**Tomcat Up And Running On OCI**](TomcatUpAndRunningOnOCI.md)|20 minutes|
+|[**Oracle Database Up And Running On OCI**](OracleDatabaseUpAndRunningOnOCI.md)|25 minutes|
 
 
 # References

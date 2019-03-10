@@ -1,4 +1,4 @@
-# Tomcat Up And Running On OCI Instance
+# Tomcat Up And Running On Oracle Cloud Infrastructure (OCI) Instance
 
 ## Prerequisites
 
