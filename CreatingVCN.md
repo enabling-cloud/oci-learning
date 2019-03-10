@@ -52,10 +52,11 @@ VCN Deleted
 
 
 
-
-
 # References
 * [Over View Of Networking](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/overview.htm)
 * [Networking Scenarios](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/scenarios.htm)
 * [VCNs And Subnets](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingVCNs.htm)
 * [VCN Deployment Guide](https://cloud.oracle.com/iaas/whitepapers/vcn-deployment-guide.pdf)
+* [Access to Internet](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/internetaccess.htm)
+* [Route Table](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm)
+* [DHCP Options](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingDHCP.htm)
