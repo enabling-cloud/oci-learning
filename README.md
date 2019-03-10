@@ -10,7 +10,7 @@
 | ------------- |-----:|
 |[**Generating SSH Key Pair**](GeneratingSshKey.md)|5 minutes|
 |[**Creating VCN**](CreatingVCN.md)|10 minutes|
-|[**Creating VCN**](CreatingComputeInstance.md)|15 minutes|
+|[**Creating Compute Instance**](CreatingComputeInstance.md)|15 minutes|
 
 
 # References
