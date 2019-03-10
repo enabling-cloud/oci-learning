@@ -249,18 +249,18 @@ Fingerprint = finger print from file { [opc@jenkins-instance .oci] cat config ]
 
 
 ```Powershell
-nadeemoh@NADEEMOH-LAP MINGW64 ~/.ssh
+nadeem@nadeem-LAP MINGW64 ~/.ssh
 $ clip < id_rsa.pub
 
-nadeemoh@NADEEMOH-LAP MINGW64 ~/.ssh$
+nadeem@nadeem-LAP MINGW64 ~/.ssh$
 
 ```
 
 ```Powershell
-nadeemoh@NADEEMOH-LAP MINGW64 ~/.ssh
+nadeem@nadeem-LAP MINGW64 ~/.ssh
 $ clip < id_rsa
 
-nadeemoh@NADEEMOH-LAP MINGW64 ~/.ssh
+nadeem@nadeem-LAP MINGW64 ~/.ssh
 $
 
 ```
