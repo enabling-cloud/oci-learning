@@ -161,11 +161,10 @@ Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64
 
 ![](resources/db-being-terminated.png)
 
+![](resources/db-terminated.png)
+
 
 ### VNC
 
 Refer [this](CreatingVCN.md#terminating-vcn) for more details
 
-
-## References
-* 
