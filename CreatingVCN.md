@@ -60,3 +60,4 @@ VCN Deleted
 * [Access to Internet](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/internetaccess.htm)
 * [Route Table](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm)
 * [DHCP Options](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingDHCP.htm)
+* [VCN FAQ](https://cloud.oracle.com/en_US/bare-metal-network/vcn/faq)
