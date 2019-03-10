@@ -81,11 +81,38 @@ provide cloud init script
 ## Connecting To Provisioned Instance 
 
 
-### Step 1 : 
+### Step 1 :  Connect Using SSH Tool
 
-### Step 2 : 
+##### Note : opc is the default user
 
-### Step 3 : 
+![](resources/compute-instance-connect-options.png)
+
+### Step 2 : Instance Connected
+
+```Powershell
+Authenticating with public key "imported-openssh-key"
+     ┌────────────────────────────────────────────────────────────────────┐
+     │                        • MobaXterm 10.5 •                          │
+     │            (SSH client, X-server and networking tools)             │
+     │                                                                    │
+     │ ➤ SSH session to opc@130.61.95.93                                  │
+     │   • SSH compression : ✔                                            │
+     │   • SSH-browser     : ✔                                            │
+     │   • X11-forwarding  : ✘  (disabled or not supported by server)     │
+     │   • DISPLAY         : 172.19.134.33:0.0                            │
+     │                                                                    │
+     │ ➤ For more info, ctrl+click on help or visit our website           │
+     └────────────────────────────────────────────────────────────────────┘
+
+[opc@demo-compute-instance ~]$ pwd
+/home/opc
+[opc@demo-compute-instance ~]$ ls -ltr
+total 0
+[opc@demo-compute-instance ~]$
+
+```
+
+
 
 ## Termination 
 
