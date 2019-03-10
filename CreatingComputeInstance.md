@@ -117,15 +117,29 @@ total 0
 ## Termination 
 
 
-### Step 1 : 
+### Step 1 : Navigate To Compute Instance
 
-### Step 2 : 
+![](resources/navigate-compute-instance.png) 
 
-### Step 3 : 
+![](resources/compute-instances2.png)
 
-### Step 4 : 
+### Step 2 : Initiate Termination
 
-### Step 5 : 
+![](resources/compute-instance-terminate.png)
+
+Confirm
+
+![](resources/compute-instance-confirm-terminate.png)
+
+### Step 3 : Wait for Instance being terminated
+
+![](resources/compute-instance-being-terminated.png)
+
+Termincated
+
+![](resources/compute-instance-terminated.png)
+
+
 
 ## References
 *
