@@ -324,13 +324,15 @@ Node provisioned
 
 ### Compute Instance
 
-Refer [this](CreatingComputeInstance.md#termination) for more details on how to terminate VCN.
+Refer [this](CreatingComputeInstance.md#termination) for more details on how to terminate compute instances.
+
+**Note :** You would have to terminate two compute instances
 
 ### VCN
 
-Refer [this](CreatingVCN.md#terminating-vcn) for more details on how to terminate compute instances.
+Refer [this](CreatingVCN.md#terminating-vcn) for more details on how to terminate VCN.
 
-**Note :** You would have to terminate two compute instances
+
 
 # References
 
