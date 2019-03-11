@@ -11,6 +11,7 @@
 |[**Tomcat Up And Running On OCI**](TomcatUpAndRunningOnOCI.md)|20 minutes|
 |[**Oracle Database Up And Running On OCI**](OracleDatabaseUpAndRunningOnOCI.md)|25 minutes|
 |[**Jenkins Up And Running On OCI**](JenkinsUpAndRunningOnOCI.md)|25 minutes|
+|[**OCI CLI Up An Running On Windows**](OciCliUpAndRunningOnWindows.md)|25 minutes|
 
 
 # Terraform 
