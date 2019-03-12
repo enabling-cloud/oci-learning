@@ -4,11 +4,11 @@
 
 ### SSH
 
-[Generating a Secure Shell (SSH) Public/Private Key Pair](GeneratingSshKey.md)
+Make sure to generate the [SSH key Pari](GeneratingSshKey.md), ignore if already done
 
 ### VNC
 
-[Creating VCN](CreatingVCN.md)
+Make sure to [create VCN](CreatingVCN.md), ignore if already done.
 
 ### Compute Instance
 

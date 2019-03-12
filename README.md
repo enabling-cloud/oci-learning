@@ -12,6 +12,8 @@
 |[**Oracle Database Up And Running On OCI**](OracleDatabaseUpAndRunningOnOCI.md)|25 minutes|
 |[**Jenkins Up And Running On OCI**](JenkinsUpAndRunningOnOCI.md)|25 minutes|
 |[**OCI CLI Up An Running On Windows**](OciCliUpAndRunningOnWindows.md)|25 minutes|
+|[**Attaching Block Volume To Compute Instance**](AttachingBlockVolumeToComputeInstance.md)|10 minutes|
+
 
 
 # Terraform 

@@ -8,11 +8,11 @@ Lets provision the following infrastructure
 
 ### SSH
 
-[Generating a Secure Shell (SSH) Public/Private Key Pair](GeneratingSshKey.md)
+Make sure to generate the [SSH key Pari](GeneratingSshKey.md), ignore if already done
 
 ### VNC
 
-[Creating VCN](CreatingVCN.md)
+Make sure to [create VCN](CreatingVCN.md), ignore if already done.
 
 
 ## Create Database VM
@@ -164,7 +164,7 @@ Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64
 ![](resources/db-terminated.png)
 
 
-### VNC
+### VCN
 
-Refer [this](CreatingVCN.md#terminating-vcn) for more details
+Refer [this](CreatingVCN.md#terminating-vcn) for more details on how to terminate VCN.
 
