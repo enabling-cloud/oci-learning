@@ -228,6 +228,31 @@ This is block volume storage
 
 # Clean Up 
 
+### Detach Volume
+
+Click on **Detach**
+
+![](resources/bs-detach-click.png)
+
+Execute the commands 
+
+![](resources/bs-detatch-confirmation1.png)
+
+```Powershell
+[opc@demo-instance ~]$ sudo iscsiadm -m node -T iqn.2015-12.com.oracleiaas:cb3184d8-b43a-41e3-84d6-eaa2f930b835 -p 169.254.2.2:3260 -u
+
+[opc@demo-instance ~]$ sudo iscsiadm -m node -T iqn.2015-12.com.oracleiaas:cb3184d8-b43a-41e3-84d6-eaa2f930b835 -p 169.254.2.2:3260 -u
+
+```
+
+![](resources/bs-detatch-confirmation2.png)
+
+Wait for Block volume to be detached.
+
+![](resources/bs-detaching.png)
+
+
+
 ### Compute Instance
 
 Refer [this](CreatingComputeInstance.md#termination) for more details on how to terminate Compute instance.
