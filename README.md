@@ -33,3 +33,4 @@
 * [Supplemental Information](https://docs.cloud.oracle.com/iaas/Content/General/Reference/more.htm)
 * [Technical White Papers](https://docs.cloud.oracle.com/iaas/Content/General/Reference/aqswhitepapers.htm)
 * [OCI Learning](https://apexapps.oracle.com/pls/apex/f?p=44785:141:9077291495469::::P141_PAGE_ID,P141_SECTION_ID:521,3649)
+* [Best Practices Deploying HA Architecture](https://cloud.oracle.com/iaas/whitepapers/best-practices-deploying-ha-architecture-oci.pdf)
