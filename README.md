@@ -13,7 +13,7 @@
 |[**Jenkins Up And Running On OCI**](JenkinsUpAndRunningOnOCI.md)|25 minutes|
 |[**OCI CLI Up An Running On Windows**](OciCliUpAndRunningOnWindows.md)|25 minutes|
 |[**Attaching Block Volume To Compute Instance**](AttachingBlockVolumeToComputeInstance.md)|10 minutes|
-|[**Public Load Balancer Up And Running on OCI**](PublicLoadBalancerOnOCI.md)|10 minutes|
+|[**Public Load Balancer Up And Running on OCI**](PublicLoadBalancerOnOCI.md)|30 minutes|
 
 
 
