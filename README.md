@@ -13,6 +13,7 @@
 |[**Jenkins Up And Running On OCI**](JenkinsUpAndRunningOnOCI.md)|25 minutes|
 |[**OCI CLI Up An Running On Windows**](OciCliUpAndRunningOnWindows.md)|25 minutes|
 |[**Attaching Block Volume To Compute Instance**](AttachingBlockVolumeToComputeInstance.md)|10 minutes|
+|[**Public Load Balancer Up And Running on OCI**](PublicLoadBalancerOnOCI.md)|10 minutes|
 
 
 
@@ -34,3 +35,4 @@
 * [Technical White Papers](https://docs.cloud.oracle.com/iaas/Content/General/Reference/aqswhitepapers.htm)
 * [OCI Learning](https://apexapps.oracle.com/pls/apex/f?p=44785:141:9077291495469::::P141_PAGE_ID,P141_SECTION_ID:521,3649)
 * [Best Practices Deploying HA Architecture](https://cloud.oracle.com/iaas/whitepapers/best-practices-deploying-ha-architecture-oci.pdf)
+* [Best Practices for DR](https://cloud.oracle.com/iaas/whitepapers/best_practices_for_dr_on_oci.pdf)
