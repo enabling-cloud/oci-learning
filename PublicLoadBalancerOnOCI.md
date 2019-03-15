@@ -20,9 +20,6 @@ For the sake of simplicity lets focus only on the highlighted items.
 
 Make sure to generate the [SSH key Pari](GeneratingSshKey.md), ignore if already done
 
-### Compute Instance
-
-Make sure to [Create Compute Instance](CreatingComputeInstance.md), we would have to create two compute instances, ignore if already done.
 
 # Implementation
 
@@ -94,12 +91,112 @@ Will reuse existing 3 subnets from public_lb_vcn for this purpose
 
 ![](resources/lb-public-edit-ad3.png)
 
-## All Subnets
+### All Subnets
 
 Here are the updated subnets
 
 ![](resources/lb-public-subnets.png)
 
+
+## Create Two App Compute Instances
+
+Create two compute instances and install Apache on both of them, and do the following
+
+* Firewalls opened to allow HTTP 
+* Create index.html
+
+
+Follow the steps in [Create Compute Instance](CreatingComputeInstance.md), to create two compute instances.
+
+![](resources/lb-public-two-apps.png)
+
+Refer [this](https://docs.cloud.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm) for more details on Compute Service
+
+## App1
+
+![](resources/lb-public-app1.png)
+
+Lets connect
+
+![](resources/lb-public-app1-ssh.png)
+
+### Install Apache on App1
+
+Install HTTP Server
+
+```Powershell
+sudo yum install httpd -y
+```
+Start Apache server
+
+```Powershell
+sudo apachectl start
+```
+
+Configure it to start after system reboot
+
+```Powershell
+ sudo systemctl enable httpd
+```
+
+Quick Check on configurations
+
+```Powershell
+[opc@app1 ~]$ sudo apachectl configtest
+Syntax OK
+[opc@app1 ~]$
+
+```
+Create firewall rules to allow access to the ports on which the HTTP server listens.
+
+```Powershell
+[opc@app1 ~]$  sudo firewall-cmd --permanent --zone=public --add-service=http
+success
+[opc@app1 ~]$ sudo firewall-cmd --reload
+success
+[opc@app1 ~]$
+
+```
+
+Create Index file for App1
+
+```Powershell
+sudo bash -c 'echo This is App1 running on OCI >> /var/www/html/index.html'
+```
+
+```Powershell
+[opc@app1 ~]$ curl localhost
+This is App1 running on OCI
+[opc@app1 ~]$
+```
+
+## App2
+
+![](resources/lb-public-app2.png)
+
+
+
+```Powershell
+
+```
+
+```Powershell
+
+```
+
+
+```Powershell
+
+```
+
+
+```Powershell
+
+```
+
+```Powershell
+
+```
 
 # Testing
 
