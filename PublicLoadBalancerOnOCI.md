@@ -280,6 +280,10 @@ If you get **502** wait for some more time.
 
 ![](resources/lb-public-502.png)
 
+After some times it works
+
+![](resources/lb-public-up-running.png)
+
 
 
 # Clean Up
