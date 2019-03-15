@@ -23,7 +23,7 @@ OCIDs are required, before we go on installing OCI command line tool on jenkins 
 
 SSH into **130.61.121.131** (Provisioned Jenkins instance)
 
-![](resources/jenkins-ssh.png)
+![](../resources/jenkins-ssh.png)
 
 ```Powershell
 bash -c "$(curl –L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh)"
@@ -118,13 +118,13 @@ DwIDAQAB
 
 Add the above public key to your API Keys
 
-![](resources/oci-user-settings.png)
+![](../resources/oci-user-settings.png)
 
-![](resources/oci-add-public-key.png)
+![](../resources/oci-add-public-key.png)
 
-![](resources/oci-add-public-key-dialog.png)
+![](../resources/oci-add-public-key-dialog.png)
 
-![](resources/ocid-public-key-added.png)
+![](../resources/ocid-public-key-added.png)
 
 
 
@@ -176,31 +176,31 @@ success
 
 Go to VCNs
 
-![](resources/goto-vcn.png)
+![](../resources/goto-vcn.png)
 
 Click on the concerned VCN
 
-![](resources/vcn-details2.png)
+![](../resources/vcn-details2.png)
 
 Compute instance is available on AD1, click on corresponding subnet security list.
 
-![](resources/vcn-ad1-security-list.png)
+![](../resources/vcn-ad1-security-list.png)
 
 Click on Edit all rules
 
-![](resources/edit-default-security-list.png)
+![](../resources/edit-default-security-list.png)
 
 Add ingress rule, from anywhere to TCP port 8080
 
-![](resources/ingress-8080-tcp.png)
+![](../resources/ingress-8080-tcp.png)
 
 Rule added
 
-![](resources/ingress-8080-tcp-added.png)
+![](../resources/ingress-8080-tcp-added.png)
 
 Click on save
 
-![](resources/save-security-list.png)
+![](../resources/save-security-list.png)
 
 ### Step 5 : Configure Jenkins
 
@@ -214,48 +214,48 @@ Goto Public IP Address : jenkins port
 ```
 Admin first time login, use above password
 
-![](resources/jenkins-admin-login.png)
+![](../resources/jenkins-admin-login.png)
 
 customize
 
-![](resources/jenkins-customize.png)
+![](../resources/jenkins-customize.png)
 
 Plugins being installed
 
-![](resources/jenkins-plugins-install.png)
+![](../resources/jenkins-plugins-install.png)
 
 Configure first admin
 
-![](resources/jenkins-first-admin.png)
+![](../resources/jenkins-first-admin.png)
 
 Jenkins network config
 
-![](resources/jenkins-instance-config.png)
+![](../resources/jenkins-instance-config.png)
 
 Jenkins is ready to use
 
-![](resources/jenkins-ready.png)
+![](../resources/jenkins-ready.png)
 
 ## Configure Master/Slave
 
 ### Step 1 :  Install Jenkins OCI Plugin
 
-![](resources/jenkins-oci-plugin.png)
+![](../resources/jenkins-oci-plugin.png)
 
 
 ### Step 2 : Configure Jenkins OCI Plugin
 
-![](resources/jenkins-add-new-cloud.png)
+![](../resources/jenkins-add-new-cloud.png)
 
 API Key = [opc@jenkins-instance .oci]$ cat oci_api_key.pem
 
 Fingerprint = finger print from file { [opc@jenkins-instance .oci] cat config ]
 
-![](resources/jenkins-compute-configuration.png)
+![](../resources/jenkins-compute-configuration.png)
 
 Click on **Add a new instance template**
 
-![](resources/jenkins-add-new-instance-template.png)
+![](../resources/jenkins-add-new-instance-template.png)
 
 
 Copy **SSH Public Key** to be used below, item 9
@@ -280,15 +280,15 @@ $
 ```
 
 
-![](resources/jenkins-instance-template.png)
+![](../resources/jenkins-instance-template.png)
 
 Click on **Advanced**
 
-![](resources/jenkins-instance-template-advance-click.png)
+![](../resources/jenkins-instance-template-advance-click.png)
 
 Make sure to provide `sudo yum install java -y` for init script
 
-![](resources/jenkins-instance-template-advance.png)
+![](../resources/jenkins-instance-template-advance.png)
 
 Click **Save**
 
@@ -296,26 +296,26 @@ Click **Save**
 
 Click on **Build Executor Status**
 
-![](resources/jenkins-build-executor.png)
+![](../resources/jenkins-build-executor.png)
 
 Click on **Jenkins-Slave** to provision new node
 
-![](resources/jenkins-provision-new-slave.png)
+![](../resources/jenkins-provision-new-slave.png)
 
 Node provisioning started
 
-![](resources/jenkins-slave-provision-started.png)
+![](../resources/jenkins-slave-provision-started.png)
 
 OCI compute VM being provisioned
 
-![](resources/jenkins-oci-instance-being-provisioned.png)
+![](../resources/jenkins-oci-instance-being-provisioned.png)
 
 
 Node provisioned
 
-![](resources/jenkins-slave-provisioned.png)
+![](../resources/jenkins-slave-provisioned.png)
 
-![](resources/jenkins-oci-slave-provisioned.png)
+![](../resources/jenkins-oci-slave-provisioned.png)
 
 
 

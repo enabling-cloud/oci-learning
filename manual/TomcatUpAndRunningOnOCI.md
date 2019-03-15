@@ -81,37 +81,37 @@ success
 
 Go to VCNs
 
-![](resources/goto-vcn.png)
+![](../resources/goto-vcn.png)
 
 Click on the concerned VCN
 
-![](resources/vcn-details2.png)
+![](../resources/vcn-details2.png)
 
 Compute instance is available on AD1, click on corresponding subnet security list.
 
-![](resources/vcn-ad1-security-list.png)
+![](../resources/vcn-ad1-security-list.png)
 
 Click on Edit all rules
 
-![](resources/edit-default-security-list.png)
+![](../resources/edit-default-security-list.png)
 
 Add ingress rule, from anywhere to TCP port 8080
 
-![](resources/ingress-8080-tcp.png)
+![](../resources/ingress-8080-tcp.png)
 
 Rule added
 
-![](resources/ingress-8080-tcp-added.png)
+![](../resources/ingress-8080-tcp-added.png)
 
 Click on save
 
-![](resources/save-security-list.png)
+![](../resources/save-security-list.png)
 
 ## Testing
 
 goto compute-instance public ip address : tomcat port
 
-![](resources/tomcat-up-and-running.png)
+![](../resources/tomcat-up-and-running.png)
 
 ## Clean Up 
 

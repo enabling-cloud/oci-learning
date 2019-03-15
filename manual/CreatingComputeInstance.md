@@ -2,7 +2,7 @@
 
 Lets provision the following infrastructure
 
-![](resources/components-tobe-created.png)
+![](../resources/components-tobe-created.png)
 
 ## Prerequisites
 
@@ -18,38 +18,38 @@ Make sure to [create VCN](CreatingVCN.md), ignore if already done.
 
 ### Step 1 : Navigate To Compute Instance
 
-![](resources/navigate-compute-instance.png)
+![](../resources/navigate-compute-instance.png)
 
-![](resources/compute-instances.png)
+![](../resources/compute-instances.png)
 
 ### Step 2 : Provide Name
 
-![](resources/compute-instance-name.png)
+![](../resources/compute-instance-name.png)
 
 ### Step 3 : Select Availability Doamin
 
-![](resources/compute-instance-domain.png)
+![](../resources/compute-instance-domain.png)
 
 ### Step 4 : Select Image Source
 
-![](resources/compute-instance-image-source.png)
+![](../resources/compute-instance-image-source.png)
 
 Available images
 
-![](resources/compute-instance-images.png)
+![](../resources/compute-instance-images.png)
 
 ### Step 5 : Select Instance Type
 
-![](resources/compute-instance-instance-type.png)
+![](../resources/compute-instance-instance-type.png)
 
 
 ### Step 6 : Select Instance Shape
 
-![](resources/compute-instance-instance-shape.png)
+![](../resources/compute-instance-instance-shape.png)
 
 Available Shapes
 
-![](resources/compute-instance-instance-shapes.png)
+![](../resources/compute-instance-instance-shapes.png)
 
 ### Step 7 : Add SSH Key
 
@@ -64,25 +64,25 @@ $
 ```
 Paste it
 
-![](resources/compute-instance-ssh-key.png)
+![](../resources/compute-instance-ssh-key.png)
 
 ### Step 8: Configure Networking
 
-![](resources/compute-instance-networking.png)
+![](../resources/compute-instance-networking.png)
 
 ### Step 9 : Configure Advance Options
 
 provide cloud init script
 
-![](resources/compute-instance-advanced-options.png)
+![](../resources/compute-instance-advanced-options.png)
 
 ### Step 10 : Wait For Instance to be provisioned
 
-![](resources/compute-instance-being-provisioned.png)
+![](../resources/compute-instance-being-provisioned.png)
 
 Instance provisioned
 
-![](resources/compute-instance-provisioned.png)
+![](../resources/compute-instance-provisioned.png)
 
 Make a note of public ip address
 
@@ -93,7 +93,7 @@ Make a note of public ip address
 
 ##### Note : _opc_ is the default user
 
-![](resources/compute-instance-connect-options.png)
+![](../resources/compute-instance-connect-options.png)
 
 ### Step 2 : Instance Connected
 
@@ -127,25 +127,25 @@ total 0
 
 ### Step 1 : Navigate To Compute Instance
 
-![](resources/navigate-compute-instance.png) 
+![](../resources/navigate-compute-instance.png) 
 
-![](resources/compute-instances2.png)
+![](../resources/compute-instances2.png)
 
 ### Step 2 : Initiate Termination
 
-![](resources/compute-instance-terminate.png)
+![](../resources/compute-instance-terminate.png)
 
 Confirm
 
-![](resources/compute-instance-confirm-terminate.png)
+![](../resources/compute-instance-confirm-terminate.png)
 
 ### Step 3 : Wait for Instance being terminated
 
-![](resources/compute-instance-being-terminated.png)
+![](../resources/compute-instance-being-terminated.png)
 
 Terminated
 
-![](resources/compute-instance-terminated.png)
+![](../resources/compute-instance-terminated.png)
 
 
 

@@ -93,17 +93,17 @@ config  oci_api_key.pem  oci_api_key_public.pem
 ```
 
 
-![](resources/oci-user-settings.png)
+![](../resources/oci-user-settings.png)
 
-![](resources/oci-add-public-key.png)
+![](../resources/oci-add-public-key.png)
 
 Paste the key, copied earlier.
 
-![](resources/oci-add-public-key-dialog.png)
+![](../resources/oci-add-public-key-dialog.png)
 
 Public key added
 
-![](resources/ocid-public-key-added.png)
+![](../resources/ocid-public-key-added.png)
 
 
 Create oci-cli-rc file

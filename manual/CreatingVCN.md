@@ -2,35 +2,35 @@
 
 ### Step 1 : Navigate to VCNs
 
-![](resources/goto-vcn.png)
+![](../resources/goto-vcn.png)
 
 Click to create
 
-![](resources/click-create-vcn.png)
+![](../resources/click-create-vcn.png)
 
 ### Step 2 : Create VCN
 
 Enter name and compartment, select "Create VCN plus related resources"
 
-![](resources/create-vcn-name.png)
+![](../resources/create-vcn-name.png)
 
 Select "Use DNC hostnames in this VCN"
 
-![](resources/vcn-dns-resolution.png)
+![](../resources/vcn-dns-resolution.png)
 
 Internet Gateway and Route Table Would be created as well.
 
-![](resources/vnc-ig-rt.png)
+![](../resources/vnc-ig-rt.png)
 
 Three subnets would be created
 
-![](resources/vcn-subnets.png)
+![](../resources/vcn-subnets.png)
 
-![](resources/vcn-details.png)
+![](../resources/vcn-details.png)
 
 VCN Created
 
-![](resources/vcn-created.png)
+![](../resources/vcn-created.png)
 
 
 
@@ -38,17 +38,17 @@ VCN Created
 
 ### Step 1 : Navigate to VCNs
 
-![](resources/goto-vcn.png)
+![](../resources/goto-vcn.png)
 
 ### Step 2 : Initiate Termination
 
-![](resources/vcn-initiate-termination.png)
+![](../resources/vcn-initiate-termination.png)
 
-![](resources/vcn-delete-confirmation.png)
+![](../resources/vcn-delete-confirmation.png)
 
 VCN Deleted
 
-![](resources/vcn-deleted.png)
+![](../resources/vcn-deleted.png)
 
 
 

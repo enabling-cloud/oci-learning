@@ -2,7 +2,7 @@
 
 Lets provision the following infrastructure
 
-![](resources/db-infrastructure.png)
+![](../resources/db-infrastructure.png)
 
 ## Prerequisites
 
@@ -20,23 +20,23 @@ Make sure to [create VCN](CreatingVCN.md), ignore if already done.
 
 ### Step 1 : Navigate to Database Option
 
-![](resources/navigate-database-option.png)
+![](../resources/navigate-database-option.png)
 
 Click **Launch DB Systems**
 
-![](resources/launch-db-systems-menu.png)
+![](../resources/launch-db-systems-menu.png)
 
 
 ### Step 2 : Provide Database System Infromation
 
-![](resources/db-name-se.png)
+![](../resources/db-name-se.png)
 
 
-![](resources/db-available-editions.png)
+![](../resources/db-available-editions.png)
 
 ### Step 3 : Provide License Information
 
-![](resources/db-as-lt.png)
+![](../resources/db-as-lt.png)
 
 
 ### Step 4 : Add SSH Key
@@ -53,28 +53,28 @@ $
 ```
 Paste the SSH key
 
-![](resources/db-ssh-paste.png)
+![](../resources/db-ssh-paste.png)
 
 ### Step 5 : Provide Network Infromation
 
-![](resources/db-network-info.png)
+![](../resources/db-network-info.png)
 
 
 ### Step 6 : Provide Database Information
 
-![](resources/db-info.png)
+![](../resources/db-info.png)
 
 Click **Launch DB System**
 
-![](resources/db-launch.png)
+![](../resources/db-launch.png)
 
 ### Step 7 : Wait For Instance Being Provisioned
 
-![](resources/db-being-provisoned.png)
+![](../resources/db-being-provisoned.png)
 
 It takes more than 30 minutes.
 
-![](resources/db-provisioned.png)
+![](../resources/db-provisioned.png)
 
 public ip address is **130.61.94.44**
 
@@ -83,7 +83,7 @@ public ip address is **130.61.94.44**
 
 ssh into **130.61.94.44**
 
-![](resources/db-ssh-connect.png)
+![](../resources/db-ssh-connect.png)
 
 
 ```Powershell
@@ -155,13 +155,13 @@ Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64
 
 ### Database VM
 
-![](resources/db-initiate-termination.png)
+![](../resources/db-initiate-termination.png)
 
-![](resources/db-confirm-termination.png)
+![](../resources/db-confirm-termination.png)
 
-![](resources/db-being-terminated.png)
+![](../resources/db-being-terminated.png)
 
-![](resources/db-terminated.png)
+![](../resources/db-terminated.png)
 
 
 ### VCN

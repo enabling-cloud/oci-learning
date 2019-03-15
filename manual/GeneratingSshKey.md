@@ -2,7 +2,7 @@
 
 Run **Git Bash** as Administrator
 
-![](resources/git-bash.png)
+![](../resources/git-bash.png)
 
 ```Powershell
 $ ssh-keygen -b 2048 -t rsa

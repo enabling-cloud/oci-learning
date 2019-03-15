@@ -2,7 +2,7 @@
 
 Lets provision the following infrastructure
 
-![](resources/bs-infrastructure.png)
+![](../resources/bs-infrastructure.png)
 
 ## Prerequisites
 
@@ -25,41 +25,41 @@ Make sure to [Create Compute Instance](CreatingComputeInstance.md), ignore if al
 
 Navigate to Block volumes
 
-![](resources/bs-navigate-block-volumes.png)
+![](../resources/bs-navigate-block-volumes.png)
 
 Click **Create Block Volume**
 
 ### Step 2: Provide Details
 
-![](resources/bs-create.png)
+![](../resources/bs-create.png)
 
 ### Step 3: Wait for Volume to be provisioned
 
-![](resources/bs-being-provisioned.png)
+![](../resources/bs-being-provisioned.png)
 
 Successfully provisioned
 
-![](resources/bs-provisioned.png)
+![](../resources/bs-provisioned.png)
 
 ## Attaching Block Volume
 
-![](resources/navigate-compute-instance.png)
+![](../resources/navigate-compute-instance.png)
 
-![](resources/goto-compute-instance.png)
+![](../resources/goto-compute-instance.png)
 
-![](resources/bs-attach-volume.png)
+![](../resources/bs-attach-volume.png)
 
-![](resources/bs-attach-volume-details.png)
+![](../resources/bs-attach-volume-details.png)
 
-![](resources/bs-attach-volume-alert.png)
+![](../resources/bs-attach-volume-alert.png)
 
-![](resources/bs-attached.png)
+![](../resources/bs-attached.png)
 
 
 
 ssh into the demo instance
 
-![](resources/bs-ssh-details.png)
+![](../resources/bs-ssh-details.png)
 
 ```Powershell
 [opc@demo-instance ~]$ lsblk
@@ -100,9 +100,9 @@ lrwxrwxrwx. 1 root root 7 Mar 12 14:17 /dev/oracleoci/oraclevda3 -> ../sda3
 
 ```
 
-![](resources/bs-iscsi-commands.png)
+![](../resources/bs-iscsi-commands.png)
 
-![](resources/bs-iscsi-commands-details.png)
+![](../resources/bs-iscsi-commands-details.png)
 
 ```Powershell
 [opc@demo-instance ~]$ sudo iscsiadm -m node -o new -T iqn.2015-12.com.oracleiaas:cb3184d8-b43a-41e3-84d6-eaa2f930b835 -p 169.254.2.2:3260
@@ -232,11 +232,11 @@ This is block volume storage
 
 Click on **Detach**
 
-![](resources/bs-detach-click.png)
+![](../resources/bs-detach-click.png)
 
 Execute the commands 
 
-![](resources/bs-detatch-confirmation1.png)
+![](../resources/bs-detatch-confirmation1.png)
 
 ```Powershell
 [opc@demo-instance ~]$ sudo iscsiadm -m node -T iqn.2015-12.com.oracleiaas:cb3184d8-b43a-41e3-84d6-eaa2f930b835 -p 169.254.2.2:3260 -u
@@ -245,11 +245,11 @@ Execute the commands
 
 ```
 
-![](resources/bs-detatch-confirmation2.png)
+![](../resources/bs-detatch-confirmation2.png)
 
 Wait for Block volume to be detached.
 
-![](resources/bs-detaching.png)
+![](../resources/bs-detaching.png)
 
 
 
