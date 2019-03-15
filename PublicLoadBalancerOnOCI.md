@@ -20,10 +20,6 @@ For the sake of simplicity lets focus only on the highlighted items.
 
 Make sure to generate the [SSH key Pari](GeneratingSshKey.md), ignore if already done
 
-### VNC
-
-Make sure to [create VCN](CreatingVCN.md), ignore if already done.
-
 ### Compute Instance
 
 Make sure to [Create Compute Instance](CreatingComputeInstance.md), we would have to create two compute instances, ignore if already done.
@@ -70,6 +66,39 @@ Will try to reuse some of it where ever applicable instead of creating new one.
 Refer [this](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securitylists.htm) for more details on SecurityList
 
 ## Crete New Route Table For Loadbalancer
+
+![](resources/lb-public-click-create-rt.png)
+
+![](resources/lb-public-create-rt.png)
+
+![](resources/lb-public-rt-created.png)
+
+Refer [this](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm) for more details on Routers
+
+## Modify Existing Subnets
+
+Will reuse existing 3 subnets from public_lb_vcn for this purpose
+
+### AD-1 (LB_Subnet_1)
+
+![](resources/lb-public-click-edit-ad1.png)
+
+![](resources/lb-public-click-edit-ad1.png)
+
+
+### AD-2 (LB_Subnet_2)
+
+![](resources/lb-public-click-edit-ad2.png)
+
+### AD-3 (Apps)
+
+![](resources/lb-public-edit-ad3.png)
+
+## All Subnets
+
+Here are the updated subnets
+
+![](resources/lb-public-subnets.png)
 
 
 # Testing
