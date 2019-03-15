@@ -23,7 +23,8 @@
 
 |    **Name**   | **Duration** |
 | ------------- |-----:|
-|TODO||
+|[**Creating VCN Using Terraform**](terraform/CreatingVcnUsingTerraform.md)|25 minutes|
+|[**Creating Bastion Compute Instance Using Terraform**](terraform/CreatingBastionComputeInstanceUsingTerraform.md)|45 minutes|
 
 
 # References
