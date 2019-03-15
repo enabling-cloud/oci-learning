@@ -41,6 +41,37 @@ Make sure to [Create Compute Instance](CreatingComputeInstance.md), we would hav
 * one subnet, security list, route table for backendset (Compute instances)
 
 
+## Creating VCN
+
+Lets [create VCN](CreatingVCN.md), and name it **public_lb_vcn**.
+
+![](resources/lb-public-vcn.png)
+
+Since we have created above vcn with option **"Create Virtual Cloud Plus Related Resources"** it would create the following automatically.
+
+* Subnets
+* Rout Table
+* Internet Gateway
+* Security List and 
+* DHCP Options
+
+Will try to reuse some of it where ever applicable instead of creating new one.
+
+![](resources/lb-public-vcn-details.png)
+
+## Create New Security List for Loadbalancer
+
+![](resources/lb-public-click-create-sl.png)
+
+![](resources/lb-public-create-sl.png)
+
+![](resources/lb-public-sl-created.png)
+
+Refer [this](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securitylists.htm) for more details on SecurityList
+
+## Crete New Route Table For Loadbalancer
+
+
 # Testing
 
 
