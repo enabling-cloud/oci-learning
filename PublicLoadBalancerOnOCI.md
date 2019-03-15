@@ -172,31 +172,55 @@ This is App1 running on OCI
 
 ## App2
 
+
 ![](resources/lb-public-app2.png)
 
+![](resources/lb-public-app2-ssh.png)
 
+### Install Apache on App2
 
 ```Powershell
+[opc@app2 ~]$ sudo yum install httpd -y
 
 ```
 
 ```Powershell
-
+[opc@app2 ~]$ sudo apachectl start
 ```
 
 
 ```Powershell
-
-```
-
-
-```Powershell
+[opc@app2 ~]$ sudo systemctl enable httpd
+Created symlink from /etc/systemd/system/multi-user.target.wants/httpd.service to /usr/lib/systemd/system/httpd.service.
 
 ```
 
 ```Powershell
+[opc@app2 ~]$ sudo apachectl configtest
+Syntax OK
 
 ```
+
+```Powershell
+[opc@app2 ~]$ sudo firewall-cmd --permanent --zone=public --add-service=http
+success
+[opc@app2 ~]$  sudo firewall-cmd --reload
+success
+
+```
+
+```Powershell
+[opc@app2 ~]$ sudo bash -c 'echo This is App2 running on OCI >> /var/www/html/index.html'
+
+```
+
+```Powershell
+[opc@app2 ~]$ curl localhost
+This is App2 running on OCI
+[opc@app2 ~]$
+
+```
+
 
 # Testing
 
