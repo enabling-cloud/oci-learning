@@ -80,7 +80,7 @@ Will reuse existing 3 subnets from public_lb_vcn for this purpose
 
 ![](resources/lb-public-click-edit-ad1.png)
 
-![](resources/lb-public-click-edit-ad1.png)
+![](resources/lb-public-edit-ad1.png)
 
 
 ### AD-2 (LB_Subnet_2)
@@ -100,8 +100,9 @@ Here are the updated subnets
 
 ## Create Two App Compute Instances
 
-Create two compute instances and install Apache on both of them, and do the following
+Create two compute instances and do the following :
 
+* Install Apache
 * Firewalls opened to allow HTTP 
 * Create index.html
 
@@ -221,6 +222,13 @@ This is App2 running on OCI
 
 ```
 
+## Create Load Balancer
+
+TODO 
+
+## Update SecurityList
+
+TODO
 
 # Testing
 
@@ -228,6 +236,24 @@ This is App2 running on OCI
 
 # Clean Up
 
+### Locadbalancer
+
+Terminate the loadbalancer
+
+
+### Compute Instance
+
+Terminate the two compute instances. Refer [this](CreatingComputeInstance.md#termination) for more details on how to terminate Compute instance.
+
+### VCN
+
+Termincate the VCN. Refer [this](CreatingVCN.md#terminating-vcn) for more details on how to terminate VCN.
+
 
 
 # References
+
+* [Getting Started With Loadbalancer](https://docs.cloud.oracle.com/iaas/Content/GSG/Tasks/loadbalancing.htm)
+* [OCI Loadbalancer Document](https://docs.cloud.oracle.com/iaas/Content/Balance/Concepts/balanceoverview.htm)
+* [OCI VCN Overview and Deployment Guide.pdf](https://cloud.oracle.com/iaas/whitepapers/vcn-deployment-guide.pdf)
+
