@@ -224,13 +224,61 @@ This is App2 running on OCI
 
 ## Create Load Balancer
 
-TODO 
+![](resources/lb-navigation.png) 
+
+![](resources/lb-click-create.png) 
+
+![](resources/lb-public-name.png) 
+
+![](resources/lb-public-network.png) 
+
+![](resources/lb-public-listener.png)
+
+![](resources/lb-public-backendset.png)
+
+![](resources/lb-public-details.png)
+
+
+When a load balancer is created, you’re assigned a public IP address to which you route all incoming traffic.
+
+The IP address is highly available, meaning it is available from both subnets that you specified.
+
+Note that it is only active in one subnet at a time.
 
 ## Update SecurityList
 
-TODO
+Update LB_Security_List to allow internet traffic to listener.
+
+![](resources/lb-public-sl-click-edit.png)
+
+
+You would be updating both ingress and egress.
+
+![](resources/lb-public-lbsl-rules.png)
+
+
+![](resources/lb-public-lbsl-egress.png)
+
+Update **Default Security List** to allow traffic from Load balancers to Apps
+
+![](resources/lb-public-dsl-click-edit.png)
+
+Subnet 1
+
+![](resources/lb-public-ingress-subnet.png)
+
+Subnet 2
+
+![](resources/lb-public-ingress-subnet2.png)
+
+
+
 
 # Testing
+
+If you get **502** wait for some more time.
+
+![](resources/lb-public-502.png)
 
 
 
