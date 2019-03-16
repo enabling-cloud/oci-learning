@@ -648,3 +648,8 @@ PS D:\practices\terraform\bastion> terraform apply
 
 
 
+# References
+* [Terraform OCI provider Compute Instance](https://github.com/terraform-providers/terraform-provider-oci/tree/master/docs/examples/compute/instance)
+* [Cloud init script formats](https://cloudinit.readthedocs.io/en/latest/topics/examples.html#including-users-and-groups)
+* [Compute instance overview](https://docs.cloud.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm)
+* [VCN deployment guide](https://cloud.oracle.com/iaas/whitepapers/vcn-deployment-guide.pdf)
