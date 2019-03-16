@@ -1,3 +1,5 @@
+![../README.md](../resources/home.png)
+
 # Attaching a Block Volume to Oracle Cloud Infrastructure (OCI) Compute Instance
 
 Lets provision the following infrastructure
