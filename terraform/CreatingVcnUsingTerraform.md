@@ -46,10 +46,10 @@ drwxr-xr-x 1 nadeem 1049089    0 Mar 12 11:16 ../
 nadeem@NADEEM-LAP MINGW64 ~/.oci
 
 ```
-Alter refer [this]() if you just want to generate teh API SSL Key Pair.
+
+Alternatively refer [this](GeneratingAPISigningKey.md) if you just want to generate teh API SSL Key Pair.
 
 ## Terraform Instructions
-
 
 
 Create a file vcn.tf, and add the following content
