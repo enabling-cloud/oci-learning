@@ -1,3 +1,5 @@
+[![Home](../resources/home.png#center)](../README.md)
+
 # Generating a Secure Shell (SSH) Public/Private Key Pair
 
 Run **Git Bash** as Administrator

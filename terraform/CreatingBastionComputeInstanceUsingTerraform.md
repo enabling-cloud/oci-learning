@@ -1,3 +1,5 @@
+[![Home](../resources/home.png#center)](../README.md)
+
 # Creating Bastion Compute Instance Using Terraform
 
 ## Bastion host

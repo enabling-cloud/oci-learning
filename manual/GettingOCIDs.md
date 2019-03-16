@@ -1,3 +1,5 @@
+[![Home](../resources/home.png#center)](../README.md)
+
 # Getting OCIDs
 
 ## Tenancy OCID

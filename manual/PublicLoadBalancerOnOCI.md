@@ -1,3 +1,5 @@
+[![Home](../resources/home.png#center)](../README.md)
+
 # Introduction 
 
 * Load Balancer enables Automated traffic distribution 

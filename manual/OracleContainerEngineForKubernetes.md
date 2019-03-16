@@ -1,3 +1,5 @@
+[![Home](../resources/home.png#center)](../README.md)
+
 # Kubernetes Up And Running On Oracle Cloud Infrastructure (OCI)
 
 ## Prerequisites

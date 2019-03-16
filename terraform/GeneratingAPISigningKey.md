@@ -1,3 +1,5 @@
+[![Home](../resources/home.png#center)](../README.md)
+
 # Generating API Signing Key (API SSL Key)
 
 An SSL key pair to enable Terraform to connect to the OCI API under your identity is required.

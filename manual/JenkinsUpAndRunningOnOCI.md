@@ -1,3 +1,5 @@
+[![Home](../resources/home.png#center)](../README.md)
+
 # Jenkins UP And Running On Oracle Cloud Infrastructure (OCI)
 
 ## Prerequisites

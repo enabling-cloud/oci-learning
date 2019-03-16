@@ -1,3 +1,5 @@
+[![Home](../resources/home.png#center)](../README.md)
+
 # Creating Compute Instance
 
 Lets provision the following infrastructure

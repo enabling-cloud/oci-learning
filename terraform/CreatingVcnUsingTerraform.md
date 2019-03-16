@@ -1,3 +1,5 @@
+[![Home](../resources/home.png#center)](../README.md)
+
 # Creating VCN Using Terraform On Oracle Cloud Infrastructure (OCI)
 
 We need the following

@@ -1,3 +1,5 @@
+[![Home](../resources/home.png#center)](../README.md)
+
 # Creating Virtual Cloud Network (VCN)
 
 ### Step 1 : Navigate to VCNs
