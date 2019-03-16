@@ -290,7 +290,13 @@ After some times it works
 
 ### Locadbalancer
 
-Terminate the loadbalancer
+Terminate the load balancer
+
+![](../resources/lb-click-terminate.png)
+
+![](../resources/lb-terminate-confirm.png)
+
+![](../resources/lb-public-terminating.png)
 
 
 ### Compute Instance

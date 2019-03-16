@@ -16,7 +16,6 @@ Click **Create Policy**
 
 ```
 allow service OKE to manage all-resources in tenancy
-success
 
 ```
 
