@@ -18,7 +18,7 @@ Click **Create Policy**
 allow service OKE to manage all-resources in tenancy
 
 ```
-
+Alternatively
 ```
 Allow group [group name] to manage all-resources in compartment [compartment name]
 
@@ -38,6 +38,22 @@ Refer [this](https://github.com/enabling-cloud/docker-learning) for more details
 
 ## Cluster Creation
 
+![](../resources/k8s-navigate-to-oke.png)
+
+![](../resources/k8s-click-create-cluster.png)
+
+![](../resources/k8s-cluster-name.png)
+
+
+![](../resources/k8s-vcn-confirm.png)
+
+![](../resources/k8s-node-pool-confirm.png)
+
+![](../resources/k8s-add-aon.png)
+
+![](../resources/k8s-cluster-creation-details.png)
+
+![](../resources/k8s-cluster-creating.png)
 
 
 ## Setup Kubeconfig
