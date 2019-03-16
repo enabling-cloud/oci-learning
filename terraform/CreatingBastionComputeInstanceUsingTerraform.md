@@ -115,7 +115,7 @@ eu-frankfurt-1
 PS D:\practices\terraform\bastion> $env:TF_VAR_compartment_ocid
 ocid1.compartment.oc1..aaaaaaaawbggxfhsizoqfpctlcubqi7hu63xiwzpxyyant625526x3zgxlga
 PS D:\practices\terraform\bastion> $env:TF_VAR_private_key_path
-C:\Users\nadeemoh.ORADEV\.oci\oci_api_key.pem
+C:\Users\nadeem.ORADEV\.oci\oci_api_key.pem
 PS D:\practices\terraform\bastion> $env:TF_VAR_tenancy_ocid
 ocid1.tenancy.oc1..aaaaaaaaysb24bp2xivfpemlm5idy25ps6csc7db63ml3imujjdpnbygrbna
 PS D:\practices\terraform\bastion>
@@ -415,28 +415,236 @@ Couple of more cloud-init sample files
 
 ## Execution
 
-```Powershell
-
-```
-
+Lets execute `terraform init`
 
 ```Powershell
-
+PS D:\practices\terraform\bastion> terraform init
+ 
+Initializing provider plugins...
+ 
+The following providers do not have any version constraints in configuration,
+so the latest version was installed.
+ 
+To prevent automatic upgrades to new major versions that may contain breaking
+changes, it is recommended to add version = "..." constraints to the
+corresponding provider blocks in configuration, with the constraint strings
+suggested below.
+ 
+* provider.oci: version = "~> 3.16"
+ 
+Terraform has been successfully initialized!
+ 
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+ 
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.
+PS D:\practices\terraform\bastion>
 ```
 
-
+Lets execute `terraform validate`
 
 ```Powershell
-
+PS D:\practices\terraform\bastion> terraform validate
 ```
 
+Lets execute `terraform plan`
 
 ```Powershell
-
+PS D:\practices\terraform\bastion> terraform plan
 ```
 
+output
 
 ```Powershell
-
+PS D:\practices\terraform\bastion> terraform plan
+Refreshing Terraform state in-memory prior to plan...
+The refreshed state will be used to calculate this plan, but will not be
+persisted to local or remote state storage.
+ 
+data.oci_core_images.oracle_linux_image: Refreshing state...
+data.oci_identity_availability_domains.ADs: Refreshing state...
+ 
+------------------------------------------------------------------------
+ 
+An execution plan has been generated and is shown below.
+Resource actions are indicated with the following symbols:
+  + create
+ <= read (data resources)
+ 
+Terraform will perform the following actions:
+ 
+ <= data.oci_core_images.oracle_linux_image
+      id:                                                                  <computed>
+      compartment_id:                                                      "ocid1.tenancy.oc1..sadfsadfdsafdsafdasdaf"
+      images.#:                                                            <computed>
+      operating_system:                                                    "Oracle Linux"
+      operating_system_version:                                            "7.6"
+ 
+  + oci_core_instance.Bastion
+      id:                                                                  <computed>
+      availability_domain:                                                 "iOTX:EU-FRANKFURT-1-AD-3"
+      boot_volume_id:                                                      <computed>
+      compartment_id:                                                      "ocid1.compartment.oc1..asfsafdsafsafsadf"
+      create_vnic_details.#:                                               "1"
+      create_vnic_details.0.assign_public_ip:                              "true"
+      create_vnic_details.0.display_name:                                  "primaryvnic"
+      create_vnic_details.0.freeform_tags.%:                               <computed>
+      create_vnic_details.0.hostname_label:                                "Bastion0"
+      create_vnic_details.0.private_ip:                                    "10.0.0.2"
+      create_vnic_details.0.skip_source_dest_check:                        <computed>
+      create_vnic_details.0.subnet_id:                                     "${oci_core_subnet.terraform_subnet.id}"
+      display_name:                                                        "Bastion0"
+      freeform_tags.%:                                                     <computed>
+      image:                                                               <computed>
+      ipxe_script:                                                         <computed>
+      is_pv_encryption_in_transit_enabled:                                 <computed>
+      launch_mode:                                                         <computed>
+      launch_options.#:                                                    <computed>
+      metadata.%:                                                          "2"
+      metadata.ssh_authorized_keys:                                        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0qDKiM8iX0iz3jUXZwf2AFwKNs0UNelq6ValCYRI7nr6yyBclQDRvBP88Lyqm6Umhtu8N0qMftdjcC7rgoUXl18mDHzeEq/k2mklzT+vuzYFgbuj50mNM6YoNzucqxNIRp49Zvav2BA2oIH8XE1pZwnX7Cfu2FSxRB9Udi68nQQR6KIyzBOCmZKxvP1u+kPzJssp/wTbggHQfsRfdtJQloU10m04yHJC5uzoHOtGEVgjuXktykAzvX3bhac1NCVPc2U6xZEMTMfmb3ornYqv1w3wN49dXtmYpvIpK4HZ+ai02F4n3lN3Jy0SejJPDMoYJWsFySDas59SOxw/rD1Vp nadeem@nadeem-LAP\n"
+      metadata.user_data:                                                  "IyEvYmluL2Jhc2gNCnl1bSB1cGRhdGUgLXk="
+      private_ip:                                                          <computed>
+      public_ip:                                                           <computed>
+      region:                                                              <computed>
+      shape:                                                               "VM.Standard2.1"
+      source_details.#:                                                    "1"
+      source_details.0.boot_volume_size_in_gbs:                            <computed>
+      source_details.0.kms_key_id:                                         <computed>
+      source_details.0.source_id:                                          "ocid1.image.oc1.eu-frankfurt-1.aaaaaaaa527xpybx2azyhcz2oyk6f4lsvokyujajo73zuxnnhcnp7p24pgva"
+      source_details.0.source_type:                                        "image"
+      state:                                                               <computed>
+      subnet_id:                                                           <computed>
+      time_created:                                                        <computed>
+      time_maintenance_reboot_due:                                         <computed>
+ 
+  + oci_core_internet_gateway.terraform_ig
+      id:                                                                  <computed>
+      compartment_id:                                                      "ocid1.compartment.oc1..asfsadfsadfsafsf"
+      display_name:                                                        "terraform-gateway"
+      enabled:                                                             "true"
+      freeform_tags.%:                                                     <computed>
+      state:                                                               <computed>
+      time_created:                                                        <computed>
+      time_modified:                                                       <computed>
+      vcn_id:                                                              "${oci_core_vcn.terraform_vcn.id}"
+ 
+  + oci_core_route_table.terraform_rt
+      id:                                                                  <computed>
+      compartment_id:                                                      "ocid1.compartment.oc1..asfsadfsadfsafsf"
+      display_name:                                                        "terraform-rt"
+      freeform_tags.%:                                                     <computed>
+      route_rules.#:                                                       "1"
+      route_rules.~1282495351.cidr_block:                                  <computed>
+      route_rules.~1282495351.destination:                                 "0.0.0.0/0"
+      route_rules.~1282495351.destination_type:                            <computed>
+      route_rules.~1282495351.network_entity_id:                           "${oci_core_internet_gateway.terraform_ig.id}"
+      state:                                                               <computed>
+      time_created:                                                        <computed>
+      time_modified:                                                       <computed>
+      vcn_id:                                                              "${oci_core_vcn.terraform_vcn.id}"
+ 
+  + oci_core_security_list.terraform_sl
+      id:                                                                  <computed>
+      compartment_id:                                                      "ocid1.compartment.oc1..asfsadfsadfsafsf"
+      display_name:                                                        "terraform-sl"
+      egress_security_rules.#:                                             "1"
+      egress_security_rules.1582479153.destination:                        "0.0.0.0/0"
+      egress_security_rules.1582479153.destination_type:                   <computed>
+      egress_security_rules.1582479153.icmp_options.#:                     "0"
+      egress_security_rules.1582479153.protocol:                           "all"
+      egress_security_rules.1582479153.stateless:                          <computed>
+      egress_security_rules.1582479153.tcp_options.#:                      "0"
+      egress_security_rules.1582479153.udp_options.#:                      "0"
+      freeform_tags.%:                                                     <computed>
+      ingress_security_rules.#:                                            "2"
+      ingress_security_rules.3861548008.icmp_options.#:                    "0"
+      ingress_security_rules.3861548008.protocol:                          "6"
+      ingress_security_rules.3861548008.source:                            "0.0.0.0/0"
+      ingress_security_rules.3861548008.source_type:                       <computed>
+      ingress_security_rules.3861548008.stateless:                         "false"
+      ingress_security_rules.3861548008.tcp_options.#:                     "1"
+      ingress_security_rules.3861548008.tcp_options.0.max:                 "80"
+      ingress_security_rules.3861548008.tcp_options.0.min:                 "80"
+      ingress_security_rules.3861548008.tcp_options.0.source_port_range.#: "0"
+      ingress_security_rules.3861548008.udp_options.#:                     "0"
+      ingress_security_rules.47193274.icmp_options.#:                      "0"
+      ingress_security_rules.47193274.protocol:                            "6"
+      ingress_security_rules.47193274.source:                              "0.0.0.0/0"
+      ingress_security_rules.47193274.source_type:                         <computed>
+      ingress_security_rules.47193274.stateless:                           "false"
+      ingress_security_rules.47193274.tcp_options.#:                       "1"
+      ingress_security_rules.47193274.tcp_options.0.max:                   "22"
+      ingress_security_rules.47193274.tcp_options.0.min:                   "22"
+      ingress_security_rules.47193274.tcp_options.0.source_port_range.#:   "0"
+      ingress_security_rules.47193274.udp_options.#:                       "0"
+      state:                                                               <computed>
+      time_created:                                                        <computed>
+      vcn_id:                                                              "${oci_core_vcn.terraform_vcn.id}"
+ 
+  + oci_core_subnet.terraform_subnet
+      id:                                                                  <computed>
+      availability_domain:                                                 "iOTX:EU-FRANKFURT-1-AD-3"
+      cidr_block:                                                          "10.0.0.0/30"
+      compartment_id:                                                      "ocid1.compartment.oc1..aaaaaaaawbggxfhsizoqfpctlcubqi7hu63xiwzpxyyant625526x3zgxlga"
+      dhcp_options_id:                                                     "${oci_core_vcn.terraform_vcn.default_dhcp_options_id}"
+      display_name:                                                        "terraform_subnet"
+      dns_label:                                                           "terraformSubnet"
+      freeform_tags.%:                                                     <computed>
+      prohibit_public_ip_on_vnic:                                          <computed>
+      route_table_id:                                                      "${oci_core_route_table.terraform_rt.id}"
+      security_list_ids.#:                                                 <computed>
+      state:                                                               <computed>
+      subnet_domain_name:                                                  <computed>
+      time_created:                                                        <computed>
+      vcn_id:                                                              "${oci_core_vcn.terraform_vcn.id}"
+      virtual_router_ip:                                                   <computed>
+      virtual_router_mac:                                                  <computed>
+ 
+  + oci_core_vcn.terraform_vcn
+      id:                                                                  <computed>
+      cidr_block:                                                          "10.0.0.0/16"
+      compartment_id:                                                      "ocid1.compartment.oc1..aaaaaaaawbggxfhsizoqfpctlcubqi7hu63xiwzpxyyant625526x3zgxlga"
+      default_dhcp_options_id:                                             <computed>
+      default_route_table_id:                                              <computed>
+      default_security_list_id:                                            <computed>
+      display_name:                                                        "terraform-vcn"
+      dns_label:                                                           "vcn1"
+      freeform_tags.%:                                                     <computed>
+      state:                                                               <computed>
+      time_created:                                                        <computed>
+      vcn_domain_name:                                                     <computed>
+ 
+ 
+Plan: 6 to add, 0 to change, 0 to destroy.
+ 
+------------------------------------------------------------------------
+ 
+Note: You didn't specify an "-out" parameter to save this plan, so Terraform
+can't guarantee that exactly these actions will be performed if
+"terraform apply" is subsequently run.
 ```
+
+Lets execute `terraform apply`
+
+```Powershell
+PS D:\practices\terraform\bastion> terraform apply
+```
+
+## Testing
+
+
+![](../resources/t-bastion-vcn-created.png)
+
+![](../resources/t-bastion-subnet-created.png)
+
+![](../resources/t-bastion-instance-created.png)
+
+
+![](../resources/t-bastion-ssh.png)
+
+
+
 
