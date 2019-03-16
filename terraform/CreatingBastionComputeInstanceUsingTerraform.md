@@ -113,11 +113,11 @@ PS D:\practices\terraform\bastion> .\env_vars.ps1
 PS D:\practices\terraform\bastion> $env:TF_VAR_region
 eu-frankfurt-1
 PS D:\practices\terraform\bastion> $env:TF_VAR_compartment_ocid
-ocid1.compartment.oc1..aaaaaaaawbggxfhsizoqfpctlcubqi7hu63xiwzpxyyant625526x3zgxlga
+ocid1.compartment.oc1..asfsafsafddsafdsafdsafsafdsaf
 PS D:\practices\terraform\bastion> $env:TF_VAR_private_key_path
 C:\Users\nadeem.ORADEV\.oci\oci_api_key.pem
 PS D:\practices\terraform\bastion> $env:TF_VAR_tenancy_ocid
-ocid1.tenancy.oc1..aaaaaaaaysb24bp2xivfpemlm5idy25ps6csc7db63ml3imujjdpnbygrbna
+ocid1.tenancy.oc1..afdsafdsafdsafdsafds
 PS D:\practices\terraform\bastion>
 ```
 
