@@ -8,7 +8,7 @@ Lets provision the following infrastructure
 
 ### SSH
 
-Make sure to generate the [SSH key Pari](GeneratingSshKey.md), ignore if already done
+Make sure to generate the [SSH key Pair](GeneratingSshKey.md), ignore if already done
 
 ### VNC
 

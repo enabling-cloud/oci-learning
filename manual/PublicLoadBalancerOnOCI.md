@@ -18,7 +18,7 @@ For the sake of simplicity lets focus only on the highlighted items.
 
 ### SSH
 
-Make sure to generate the [SSH key Pari](GeneratingSshKey.md), ignore if already done
+Make sure to generate the [SSH key Pair](GeneratingSshKey.md), ignore if already done
 
 
 # Implementation
