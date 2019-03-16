@@ -55,6 +55,8 @@ Refer [this](https://github.com/enabling-cloud/docker-learning) for more details
 
 ![](../resources/k8s-cluster-creating.png)
 
+![](../resources/k8s-cluster-created.png)
+
 
 ## Setup Kubeconfig
 
