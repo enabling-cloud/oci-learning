@@ -1,4 +1,4 @@
-[![Home](../resources/home.png#center)](../README.md)
+[Home](../README.md)
 
 # Attaching a Block Volume to Oracle Cloud Infrastructure (OCI) Compute Instance
 

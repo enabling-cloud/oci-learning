@@ -1,4 +1,4 @@
-[![Home](../resources/home.png#center)](../README.md)
+[Home](../README.md)
 
 # Generating a Secure Shell (SSH) Public/Private Key Pair
 

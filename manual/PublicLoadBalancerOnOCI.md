@@ -1,4 +1,5 @@
-[![Home](../resources/home.png#center)](../README.md)
+[Home](../README.md)
+
 
 # Introduction 
 

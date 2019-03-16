@@ -1,4 +1,4 @@
-[![Home](../resources/home.png#center)](../README.md)
+[Home](../README.md)
 
 # Kubernetes Up And Running On Oracle Cloud Infrastructure (OCI)
 

@@ -1,4 +1,5 @@
-[![Home](../resources/home.png#center)](../README.md)
+[Home](../README.md)
+
 
 # Oracle Database UP And Running On Oracle Cloud Infrastructure (OCI)
 
