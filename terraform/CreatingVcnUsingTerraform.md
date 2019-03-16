@@ -245,11 +245,13 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 PS D:\practices\terraform\vcn>
 ```
 
+VCN created
 
 ![](../resources/t-vcn-created.png)
 
 
 Refer [this](https://github.com/terraform-providers/terraform-provider-oci/tree/master/docs/examples) for more examples
+
 Refer the [official docs](https://www.terraform.io/docs/providers/oci/r/core_vcn.html) for vcn for more details
 
 
