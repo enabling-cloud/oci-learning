@@ -2,6 +2,10 @@
 
 # Jenkins UP And Running On Oracle Cloud Infrastructure (OCI)
 
+Lets provision the following infrastructure
+
+![](../resources/jenkins-infrastructure.png)
+
 ## Prerequisites
 
 ### SSH
