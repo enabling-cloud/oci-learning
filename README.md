@@ -23,8 +23,9 @@
 
 |    **Name**   | **Duration** |
 | ------------- |-----:|
-|[**Creating VCN Using Terraform**](terraform/CreatingVcnUsingTerraform.md)|25 minutes|
-|[**Creating Bastion Compute Instance Using Terraform**](terraform/CreatingBastionComputeInstanceUsingTerraform.md)|45 minutes|
+|[**Creating VCN Using Terraform on OCI**](terraform/CreatingVcnUsingTerraform.md)|25 minutes|
+|[**Creating Bastion Compute Instance Using Terraform on OCI**](terraform/CreatingBastionComputeInstanceUsingTerraform.md)|45 minutes|
+|[**Creating Kubernetes Cluster(OKE) Using Terraform on OCI**](terraform/OKEClusterUsingTerraform.md)|45 minutes|
 
 
 # References
