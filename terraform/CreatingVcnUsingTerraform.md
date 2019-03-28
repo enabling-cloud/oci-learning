@@ -32,7 +32,7 @@ PS C:\WINDOWS\system32>
 
 ## OCI CLI Installation
 
-Refer this for more details on OCI CLI installation, this would generate API SSL Key pair in $HOME/.oci
+Refer [this](../manual/OciCliUpAndRunningOnWindows.md) for more details on OCI CLI installation, this would generate API SSL Key pair in $HOME/.oci
 
 
 ```Powershell
