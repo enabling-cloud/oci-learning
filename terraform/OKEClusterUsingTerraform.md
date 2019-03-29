@@ -326,6 +326,14 @@ $env:TF_VAR_region  = "eu-frankfurt-1"
 $env:TF_VAR_compartment_ocid  = "ocid1.compartment.oc1..safdsafdsafdsafdsafsdfsda"
 ```
 
+execute **env_vars.ps1**
+
+```Powershell
+PS D:\practices\terraform\oke> .\env_vars.ps1
+PS D:\practices\terraform\oke>
+
+```
+
 Execute `terraform init`
 
 ```Powershell
@@ -392,9 +400,7 @@ Execute `terraform apply`
 
 Execute `terraform destroy`
 
-```Powershell
 
-```
 
 
 
