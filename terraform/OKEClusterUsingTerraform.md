@@ -375,6 +375,7 @@ PS D:\practices\terraform\oke>
 ```
 
 Execute `terraform plan`
+
 ![](../resources/t-plan-output.png)
 
 Execute `terraform apply`
