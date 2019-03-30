@@ -31,7 +31,8 @@ We need to create the following files
 * cluster.tf
 * env_vars.ps1
 
-variable.tf
+#### variable.tf
+
 ```Powershell
 # Required by the OCI Provider
 variable "tenancy_ocid" {}
@@ -89,7 +90,7 @@ variable "network_cidrs" {
 
 ```
 
-provider.tf
+#### provider.tf
 
 ```Powershell
 provider "oci" {
@@ -102,7 +103,7 @@ provider "oci" {
 
 ```
 
-outputs.tf
+#### outputs.tf
 
 ```Powershell
 # Output the result
@@ -112,7 +113,7 @@ output "show-ads" {
 
 ```
 
-datasources.tf
+#### datasources.tf
 
 ```Powershell
 # Gets a list of Availability Domains
@@ -128,7 +129,7 @@ data "oci_core_images" "oracle_linux_image" {
 
 ```
 
-network.tf
+#### network.tf
 
 ```Powershell
 resource "oci_core_vcn" "oke_vcn" {
@@ -265,7 +266,7 @@ resource "oci_core_subnet" "LoadBalancerSubnetAD2" {
 
 ```
 
-cluster.tf
+####  cluster.tf
 
 ```Powershell
 # https://www.terraform.io/docs/providers/oci/r/containerengine_cluster.html
@@ -310,7 +311,7 @@ resource "local_file" "kubeconfig" {
 
 ```
 
-env_vars.ps1
+#### env_vars.ps1
 
 ```Powershell
 ### Authentication details
@@ -326,7 +327,7 @@ $env:TF_VAR_region  = "eu-frankfurt-1"
 $env:TF_VAR_compartment_ocid  = "ocid1.compartment.oc1..safdsafdsafdsafdsafsdfsda"
 ```
 
-execute **env_vars.ps1**
+#### execute **env_vars.ps1**
 
 ```Powershell
 PS D:\practices\terraform\oke> .\env_vars.ps1
@@ -334,7 +335,7 @@ PS D:\practices\terraform\oke>
 
 ```
 
-Execute `terraform init`
+#### Execute `terraform init`
 
 ```Powershell
 PS D:\practices\terraform\oke> terraform init
@@ -367,18 +368,18 @@ commands will detect it and remind you to do so if necessary.
 PS D:\practices\terraform\oke>
 ```
 
-Execute `terraform validate`
+#### Execute `terraform validate`
 
 ```Powershell
 PS D:\practices\terraform\oke> terraform validate
 PS D:\practices\terraform\oke>
 ```
 
-Execute `terraform plan`
+#### Execute `terraform plan`
 
 ![](../resources/t-plan-output.png)
 
-Execute `terraform apply`
+#### Execute `terraform apply`
 
 ![](../resources/t-oke-being-created.png)
 
@@ -399,9 +400,7 @@ Execute `terraform apply`
 
 ## Clean up
 
-Execute `terraform destroy`
-
-
+#### Execute `terraform destroy`
 
 
 
