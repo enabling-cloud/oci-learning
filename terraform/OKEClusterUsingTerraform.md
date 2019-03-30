@@ -93,6 +93,8 @@ variable "network_cidrs" {
 #### provider.tf
 
 ```Powershell
+# https://www.terraform.io/docs/configuration/providers.html
+# https://www.terraform.io/docs/providers/oci/index.html
 provider "oci" {
   tenancy_ocid     = "${var.tenancy_ocid}"
   user_ocid        = "${var.user_ocid}"
@@ -106,6 +108,8 @@ provider "oci" {
 #### outputs.tf
 
 ```Powershell
+# https://www.terraform.io/docs/commands/output.html
+# https://learn.hashicorp.com/terraform/getting-started/outputs.html
 # Output the result
 output "show-ads" {
   value = "${data.oci_identity_availability_domains.ADs.availability_domains}"
@@ -116,11 +120,14 @@ output "show-ads" {
 #### datasources.tf
 
 ```Powershell
+# https://www.terraform.io/docs/configuration/data-sources.html
+# https://www.terraform.io/docs/providers/oci/d/identity_availability_domains.html
 # Gets a list of Availability Domains
 data "oci_identity_availability_domains" "ADs" {
   compartment_id = "${var.compartment_ocid}"
 }
 
+# https://www.terraform.io/docs/providers/oci/d/core_images.html
 data "oci_core_images" "oracle_linux_image" {
   compartment_id           = "${var.compartment_ocid}"
   operating_system         = "Oracle Linux"
@@ -132,6 +139,8 @@ data "oci_core_images" "oracle_linux_image" {
 #### network.tf
 
 ```Powershell
+# https://www.terraform.io/docs/configuration/resources.html
+# https://www.terraform.io/docs/providers/oci/r/core_vcn.html
 resource "oci_core_vcn" "oke_vcn" {
   #Required
   cidr_block     = "${lookup(var.network_cidrs, "vcnCIDR")}"
@@ -142,6 +151,7 @@ resource "oci_core_vcn" "oke_vcn" {
   display_name = "oke-vcn"
 }
 
+# https://www.terraform.io/docs/providers/oci/r/core_security_list.html
 resource "oci_core_security_list" "oke_sl" {
   #Required
   compartment_id = "${var.compartment_ocid}"
@@ -165,6 +175,7 @@ resource "oci_core_security_list" "oke_sl" {
   display_name = "oke-sl"
 }
 
+# https://www.terraform.io/docs/providers/oci/r/core_internet_gateway.html
 resource "oci_core_internet_gateway" "oke_ig" {
   #Required
   compartment_id = "${var.compartment_ocid}"
@@ -175,6 +186,7 @@ resource "oci_core_internet_gateway" "oke_ig" {
   display_name = "oke-gateway"
 }
 
+# https://www.terraform.io/docs/providers/oci/r/core_route_table.html
 resource "oci_core_route_table" "oke_rt" {
   #Required
   compartment_id = "${var.compartment_ocid}"
@@ -189,6 +201,7 @@ resource "oci_core_route_table" "oke_rt" {
   display_name = "oke-rt"
 }
 
+# https://www.terraform.io/docs/providers/oci/r/core_subnet.html
 resource "oci_core_subnet" "workerSubnetAD1" {
   #Required
   cidr_block        = "${lookup(var.network_cidrs, "workerSubnetAD1")}"
@@ -298,12 +311,14 @@ resource "oci_containerengine_node_pool" "k8s_node_pool" {
   ssh_public_key      = "${file(var.ssh_public_key_file)}"
 }
 
+# https://www.terraform.io/docs/providers/oci/d/containerengine_cluster_kube_config.html
 data "oci_containerengine_cluster_kube_config" "cluster_kube_config" {
   cluster_id    = "${oci_containerengine_cluster.k8s_cluster.id}"
   expiration    = 2592000
   token_version = "1.0.0"
 }
 
+# https://www.terraform.io/docs/providers/local/r/file.html
 resource "local_file" "kubeconfig" {
   content  = "${data.oci_containerengine_cluster_kube_config.cluster_kube_config.content}"
   filename = "${path.module}/kubeconfig"
