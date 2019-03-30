@@ -390,12 +390,21 @@ PS D:\practices\terraform\oke>
 
 ![](../resources/t-oke-created.png)
 
-![](../resources/t-oke-kubeconfig.png)
-
 
 ![](../resources/t-oke-compute-instances.png)
 
+## Testing
 
+![](../resources/t-oke-kubeconfig.png)
+
+```Powershell
+PS D:\practices\terraform\oke> kubectl --kubeconfig .\kubeconfig get nodes
+NAME        STATUS    ROLES     AGE       VERSION
+10.0.10.2   Ready     node      5m        v1.12.6
+10.0.11.2   Ready     node      55s       v1.12.6
+10.0.12.2   Ready     node      5m        v1.12.6
+PS D:\practices\terraform\oke>
+```
 
 
 ## Clean up
