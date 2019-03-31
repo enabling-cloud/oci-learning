@@ -46,9 +46,9 @@ Ger region codes from [here](https://docs.cloud.oracle.com/iaas/Content/Registry
 
 
 
-When prompted, enter your username in the format <tenancy_name>/<username>. For example, demo/nadeem.mohammad@xyz.com.
+When prompted, enter your username in the format {tenancy_name}/{username}. For example, demo/nadeem.mohammad@xyz.com.
 
-If your tenancy is federated with Oracle Identity Cloud Service, use the format <tenancy-name>/oracleidentitycloudservice/<username>.
+If your tenancy is federated with Oracle Identity Cloud Service, use the format {tenancy-name}/oracleidentitycloudservice/{username}.
 
 User name : demo/oracleidentitycloudservice/nadeem.mohammad@xyz.com
 
@@ -59,11 +59,13 @@ Password : enter the auth token you copied earlier
 ## Docker Push
 you might want to group together multiple versions of the **demo-web-app** image in the **demo** tenancy in the Frankfurt region into a repository called **docker-registry** as follows
 
+
 `fra.ocir.io/demo/docker-registry/demo-web-app:4.6.3`
+
 
 in the following format
 
-<region-code>.ocir.io/<tenancy-name>/<repo-name>/<image-name>:<tag>
+{region-code}.ocir.io/{tenancy-name}/{repo-name}/{image-name}:{tag}
 
 Refer [this](https://docs.cloud.oracle.com/iaas/Content/Registry/Concepts/registrywhatisarepository.htm) for more details
 
