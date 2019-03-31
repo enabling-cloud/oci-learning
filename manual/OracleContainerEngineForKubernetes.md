@@ -234,4 +234,5 @@ PS C:\WINDOWS\system32>
 
 # References
 * [Container Engine](https://docs.cloud.oracle.com/iaas/Content/ContEng/Concepts/contengoverview.htm)
+* [Containers FAQ](https://cloud.oracle.com/containers/faq)
 

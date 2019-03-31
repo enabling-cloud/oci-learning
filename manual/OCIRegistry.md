@@ -153,3 +153,4 @@ docker pull fra.ocir.io/demo/docker-registry/docker-test:1.0
 # References
 * [OCI Registry Overview](https://docs.cloud.oracle.com/iaas/Content/Registry/Concepts/registryoverview.htm)
 * [Pulling Images from Registry during Kubernetes Deployment](https://docs.cloud.oracle.com/iaas/Content/Registry/Tasks/registrypullingimagesfromocir.htm)
+* [Containers FAQ](https://cloud.oracle.com/containers/faq)
