@@ -15,6 +15,7 @@
 |[**Attaching Block Volume To Compute Instance**](manual/AttachingBlockVolumeToComputeInstance.md)|10 minutes|
 |[**Public Load Balancer Up And Running on OCI**](manual/PublicLoadBalancerOnOCI.md)|30 minutes|
 |[**Oracle Container Engine for Kubernetes (OKE)**](manual/OracleContainerEngineForKubernetes.md)|30 minutes|
+|[**OCI Registry**](manual/OCIRegistry.md)|30 minutes|
 
 
 
