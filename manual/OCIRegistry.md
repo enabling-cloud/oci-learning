@@ -152,7 +152,7 @@ docker pull fra.ocir.io/demo/docker-registry/docker-test:1.0
 
 ## Next
 
-Lets push the [Hello Docker](https://github.com/enabling-cloud/docker-learning/blob/master/HelloDockerImage.md) Image into OCI Regitry
+Lets push the [Hello Docker](../../docker-learning/blob/master/HelloDockerImage.md) Image into OCI Regitry
 
 
 # References
