@@ -150,6 +150,11 @@ If required you can execute the following command to pull the image
 docker pull fra.ocir.io/demo/docker-registry/docker-test:1.0
 ```
 
+## Next
+
+Lets push the [Hello Docker](https://github.com/enabling-cloud/docker-learning/blob/master/HelloDockerImage.md) Image into OCI Regitry
+
+
 # References
 * [OCI Registry Overview](https://docs.cloud.oracle.com/iaas/Content/Registry/Concepts/registryoverview.htm)
 * [Pulling Images from Registry during Kubernetes Deployment](https://docs.cloud.oracle.com/iaas/Content/Registry/Tasks/registrypullingimagesfromocir.htm)
