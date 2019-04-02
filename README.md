@@ -16,7 +16,7 @@
 |[**Public Load Balancer Up And Running on OCI**](manual/PublicLoadBalancerOnOCI.md)|30 minutes|
 |[**Oracle Container Engine for Kubernetes (OKE)**](manual/OracleContainerEngineForKubernetes.md)|30 minutes|
 |[**OCI Registry**](manual/OCIRegistry.md)|30 minutes|
-|[**Deploy Custom Docker Image into OKE Cluster**](manual/DeployCustomDockerImageIntoOKECluster.md)|30 minutes|
+|[**Deploy Custom Docker Image To OKE Cluster**](manual/DeployCustomDockerImageIntoOKECluster.md)|30 minutes|
 
 
 
