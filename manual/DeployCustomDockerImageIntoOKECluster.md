@@ -211,3 +211,18 @@ Note that host-name changes
 
 ![](../resources/clustered-docker-image.png)
 
+
+## Clean up
+
+```Powershell
+$ kubectl delete deployment hellodocker-deployment
+deployment.extensions "hellodocker-deployment" deleted
+```
+
+This would automatically delete the loadbalancer .
+
+```Powershell
+$ kubectl delete service hellodocker-service
+service "hellodocker-service" deleted
+```
+
