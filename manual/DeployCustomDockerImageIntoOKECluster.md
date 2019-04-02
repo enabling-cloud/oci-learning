@@ -74,7 +74,7 @@ spec:
     app: hellodocker
 ```
 
-image: <region-code>.ocir.io/<tenancy-name>/<repo-name>/<image-name>:<tag>
+image: {region-code}.ocir.io/{tenancy-name}/{repo-name}/{image-name}:{tag}
 
 
 for imagePullSecrets specify the secreted created, in this case ocirsecret
