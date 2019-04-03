@@ -3,6 +3,10 @@
 
 # Tomcat Up And Running On Oracle Cloud Infrastructure (OCI) Instance
 
+Lets provision the following infrastructure
+
+![](../resources/tomcat-instance.png)
+
 ## Prerequisites
 
 ### SSH

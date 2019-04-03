@@ -2,6 +2,10 @@
 
 # Creating Virtual Cloud Network (VCN)
 
+Lets provision the following infrastructure
+
+![](../resources/vcn-infrastructure.png)
+
 ### Step 1 : Navigate to VCNs
 
 ![](../resources/goto-vcn.png)
