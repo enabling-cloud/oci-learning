@@ -6,6 +6,10 @@ Kubernetes Cluster Configuration
 
 ![](../resources/k8s-cluster-configuration.png)
 
+Simplified Diagram
+
+![](../resources/k8s-simplified.png)
+
 Normally ***Kubernetes Control Plane*** is not visible.
 
 ![](../resources/k8s-infra.png)
