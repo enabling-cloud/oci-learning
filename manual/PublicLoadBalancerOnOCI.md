@@ -1,7 +1,7 @@
 [Home](../README.md)
 
 
-# Introduction 
+# Setting Up Public Load Balancer On Oracle Cloud Infrastructure (OCI) 
 
 * Load Balancer enables Automated traffic distribution 
 * Load Balancer Improves resource utilization, facilitates scaling, and helps ensure high availability
