@@ -2,6 +2,14 @@
 
 # Kubernetes Up And Running On Oracle Cloud Infrastructure (OCI)
 
+Kubernetes Cluster Configuration
+
+![](../resources/k8s-cluster-configuration.png)
+
+Normally ***Kubernetes Control Plane*** is not visible.
+
+![](../resources/k8s-infra.png)
+
 ## Prerequisites
 
 ### SSH
