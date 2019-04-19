@@ -77,7 +77,7 @@ Add the following 3 egress rules
 
 
 
-##Mount File Systems on Both instances
+## Mount File Systems on Both instances
 
 Lets now execute the mount commands
 
@@ -142,6 +142,7 @@ Nothing to do
 [root@instance2 ~]# cd /mnt/test-file-system
 ```
 
+### Validate
 
 Lets create a file in **instace#1**
 
