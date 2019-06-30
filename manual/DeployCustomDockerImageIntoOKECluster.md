@@ -21,7 +21,7 @@ kubectl create secret docker-registry ocirsecret --docker-server=<region-code>.o
 
 #### Actual Command
 ```Powershell
-$ kubectl create secret docker-registry ocirsecret --docker-server=fra.ocir.io --docker-username='demo/nadeem@abc.com' --docker-password='A<AFDS}r2[754:{o>' --docker-email='nadeem@abc.com'
+$ kubectl create secret docker-registry ocirsecret --docker-server=fra.ocir.io --docker-username=demo/nadeem@abc.com --docker-password=A<AFDS}r2[754:{o> --docker-email=nadeem@abc.com
  
  
 secret "ocirsecret" created
