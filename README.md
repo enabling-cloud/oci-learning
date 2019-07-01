@@ -17,6 +17,7 @@
 |[**Oracle Container Engine for Kubernetes (OKE)**](manual/OracleContainerEngineForKubernetes.md)|30 minutes|
 |[**OCI Registry**](manual/OCIRegistry.md)|30 minutes|
 |[**Deploy Custom Docker Image To OKE Cluster**](manual/DeployCustomDockerImageIntoOKECluster.md)|30 minutes|
+|[**Connecting Kubernetes Applications in OKE**](manual/ConnectingAppsWithServicesOKE.md)|30 minutes|
 |[**Attach Same File Storage to Multiple Compute Instances**](manual/OCIFileStorage.md)|30 minutes|
 
 
