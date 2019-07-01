@@ -211,7 +211,7 @@ spec:
     spec:
       containers:
       - name: demo-date  
-        image: fra.ocir.io/srepreprod1/docker-registry/demo-date-service:1.0
+        image: fra.ocir.io/demotenancy/docker-registry/demo-date-service:1.0
         ports:
         - containerPort: 8080
       imagePullSecrets:
@@ -259,7 +259,7 @@ spec:
     spec:
       containers:
       - name: ui-app  
-        image: fra.ocir.io/srepreprod1/docker-registry/demo-ui:1.0
+        image: fra.ocir.io/demotenancy/docker-registry/demo-ui:1.0
         ports:
         - containerPort: 8080
         volumeMounts:
