@@ -392,3 +392,4 @@ ui app is up and able to communicate to date-service.
 * [Connecting Applications with Services](https://kubernetes.io/docs/concepts/services-networking/connect-applications-service/)
 * [Connect a Front End to a Back End Using a Service](https://kubernetes.io/docs/tasks/access-application-cluster/connecting-frontend-backend/)
 * [PHP guest book application](https://kubernetes.io/docs/tutorials/stateless-application/guestbook/)
+* [LoadBalancer service, Oracle Container Engine (OKE) and OCI DNS](https://medium.com/oracledevs/loadbalancer-service-oracle-container-engine-oke-and-oci-dns-d7b1f7b4f9bd)
