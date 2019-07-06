@@ -27,6 +27,16 @@ $ kubectl create secret docker-registry ocirsecret --docker-server=fra.ocir.io -
 secret "ocirsecret" created
 ```
 
+If your tenancy is federated with Oracle Identity Cloud Service, use the format <tenancy-name>/oracleidentitycloudservice/<username> for user name
+
+```Powershell
+$ kubectl create secret docker-registry ocirsecret --docker-server=fra.ocir.io --docker-username=demo/oracleidentitycloudservice/nadeem@abc.com --docker-password=A<AFDS}r2[754:{o> --docker-email=nadeem@abc.com
+ 
+ 
+secret "ocirsecret" created
+```
+
+
 ```Powershell
 $ kubectl get secrets
 NAME                  TYPE                                  DATA      AGE
