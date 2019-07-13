@@ -8,6 +8,7 @@
 |[**Generating SSH Key Pair**](manual/GeneratingSshKey.md)|5 minutes|
 |[**Creating VCN**](manual/CreatingVCN.md)|10 minutes|
 |[**Creating Compute Instance**](manual/CreatingComputeInstance.md)|15 minutes|
+|[**Add Another SSH Enabled User**](manual/AddingAnotherUser.md)|30 minutes|
 |[**Tomcat Up And Running On OCI**](manual/TomcatUpAndRunningOnOCI.md)|20 minutes|
 |[**Oracle Database Up And Running On OCI**](manual/OracleDatabaseUpAndRunningOnOCI.md)|25 minutes|
 |[**Jenkins Up And Running On OCI**](manual/JenkinsUpAndRunningOnOCI.md)|25 minutes|
