@@ -15,6 +15,8 @@
 |[**Attaching Block Volume To Compute Instance**](manual/AttachingBlockVolumeToComputeInstance.md)|10 minutes|
 |[**Public Load Balancer Up And Running on OCI**](manual/PublicLoadBalancerOnOCI.md)|30 minutes|
 |[**Oracle Container Engine for Kubernetes (OKE)**](manual/OracleContainerEngineForKubernetes.md)|30 minutes|
+|[**Creating TLS Secret**](manual/CreatingTLSSecrect.md)|30 minutes|
+|[**Connecting To Services Outside Cluster**](manual/ConnectingToServOutSideCluster.md)|30 minutes|
 |[**OCI Registry**](manual/OCIRegistry.md)|30 minutes|
 |[**Deploy Custom Docker Image To OKE Cluster**](manual/DeployCustomDockerImageIntoOKECluster.md)|30 minutes|
 |[**Connecting Kubernetes Applications in OKE**](manual/ConnectingAppsWithServicesOKE.md)|30 minutes|

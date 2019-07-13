@@ -6,7 +6,7 @@ Execute the following in linux
 
 
 ```Powershell
--bash-4.2$ openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 -nodes -keyout tls.key -out tls.crt -extensions san -config <(echo "[req]"; echo distinguished_name=req; echo "[san]"; echo subjectAltName=DNS:tbe.com,DNS:tbe.net,IP:129.146.88.240) -subj "/CN=nginxsvc/O=nginxsvc"
+-bash-4.2$ openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 -nodes -keyout tls.key -out tls.crt -extensions san -config <(echo "[req]"; echo distinguished_name=req; echo "[san]"; echo subjectAltName=DNS:app.com,DNS:app.net,IP:129.146.88.240) -subj "/CN=nginxsvc/O=nginxsvc"
 Generating a 4096 bit RSA private key
 ..................++
 ..................................++
@@ -39,8 +39,8 @@ Extensions:
  
 #1: ObjectId: 2.5.29.17 Criticality=false
 SubjectAlternativeName [
-  DNSName: tbe.com
-  DNSName: tbe.net
+  DNSName: app.com
+  DNSName: app.net
   IPAddress: 129.146.88.240
 ]
  
