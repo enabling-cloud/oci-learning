@@ -86,7 +86,7 @@ service "demo-date-svc" created
 deployment.apps "demo-date" created
 ```
 
-#Creating Resources
+# Creating Resources
 
 
 ## Kubernetes RBAC
