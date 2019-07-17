@@ -23,6 +23,7 @@
 |[**Connecting Kubernetes Applications in OKE**](manual/ConnectingAppsWithServicesOKE.md)|30 minutes|
 |[**OKE Ingress Controller**](manual/OKEIngressController.md)|30 minutes|
 |[**Attach Same File Storage to Multiple Compute Instances**](manual/OCIFileStorage.md)|30 minutes|
+|[**File Storage Service With Kubernetes (OKE)**](manual/StaticPersistentVolumeOnOCI.md)|30 minutes|
 
 
 
