@@ -24,6 +24,7 @@
 |[**OKE Ingress Controller**](manual/OKEIngressController.md)|30 minutes|
 |[**Attach Same File Storage to Multiple Compute Instances**](manual/OCIFileStorage.md)|30 minutes|
 |[**File Storage Service With Kubernetes (OKE)**](manual/StaticPersistentVolumeOnOCI.md)|30 minutes|
+|[**Creating Internal (Private) Load Balancer (OKE)**](manual/CreatingInternalLoadBalancerOKE.md)|5 minutes|
 
 
 
