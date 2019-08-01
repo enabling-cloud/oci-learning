@@ -4,7 +4,7 @@
 
 # Prerequisites
 
-[Bastion With Load balanced Apache instances](http://wiki-tbe.us.oracle.com/display/DEV/Bastion+With+Loadbalanced+Apache+Instances)
+[Bastion With Load balanced Apache instances](BastionWithLoadBalancedApache.md)
 
 # Design
 
