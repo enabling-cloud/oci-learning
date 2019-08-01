@@ -28,6 +28,7 @@
 |[**Pulic Private Subnet Communicatin**](manual/PublicPrivateSubnetCommOCI.md)|30 minutes|
 |[**Bastion With Load Balanced Apache Instances**](manual/BastionWithLoadBalancedApache.md)|30 minutes|
 |[**Clustering Tomcat With Loadbalanced Apache on OCI**](manual/ClusteringTomcatWithLbApache.md)|30 minutes|
+|[**Loadbalanced Apache With OKE Tomcat on OCI**](manual/LoadbalancedApacheWithOkeTomcat.md)|30 minutes|
 
 
 
