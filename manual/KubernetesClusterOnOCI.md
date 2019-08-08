@@ -11,7 +11,7 @@
 
 ## Step 1 : Create Two Public Compute Instances
 
-Follow [this](manual/CreatingComputeInstance.md) to create compute instances
+Follow [this](CreatingComputeInstance.md) to create compute instances
 
 ![](../resources/kc-nodes.png)
 
