@@ -29,7 +29,7 @@
 |[**Bastion With Load Balanced Apache Instances**](manual/BastionWithLoadBalancedApache.md)|30 minutes|
 |[**Clustering Tomcat With Loadbalanced Apache on OCI**](manual/ClusteringTomcatWithLbApache.md)|30 minutes|
 |[**Loadbalanced Apache With OKE Tomcat on OCI**](manual/LoadbalancedApacheWithOkeTomcat.md)|30 minutes|
-
+|[**Single control-plane Kubernetes cluster with kubeadm on OCI**](manual/KubernetesClusterOnOCI.md)|30 minutes|
 
 
 
