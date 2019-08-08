@@ -25,7 +25,7 @@
 |[**Attach Same File Storage to Multiple Compute Instances**](manual/OCIFileStorage.md)|30 minutes|
 |[**File Storage Service With Kubernetes (OKE)**](manual/StaticPersistentVolumeOnOCI.md)|30 minutes|
 |[**Creating Internal (Private) Load Balancer (OKE)**](manual/CreatingInternalLoadBalancerOKE.md)|5 minutes|
-|[**Pulic Private Subnet Communicatin**](manual/PublicPrivateSubnetCommOCI.md)|30 minutes|
+|[**Public Private Subnet Communicatin**](manual/PublicPrivateSubnetCommOCI.md)|30 minutes|
 |[**Bastion With Load Balanced Apache Instances**](manual/BastionWithLoadBalancedApache.md)|30 minutes|
 |[**Clustering Tomcat With Loadbalanced Apache on OCI**](manual/ClusteringTomcatWithLbApache.md)|30 minutes|
 |[**Loadbalanced Apache With OKE Tomcat on OCI**](manual/LoadbalancedApacheWithOkeTomcat.md)|30 minutes|
