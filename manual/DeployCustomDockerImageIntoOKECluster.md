@@ -46,6 +46,8 @@ default-token-g8xkv   kubernetes.io/service-account-token   3         20m
 ocirsecret            kubernetes.io/dockerconfigjson        1         12s
 ```
 
+**NOTE**: If you create your `ocirsecret` manifest manually (for example, when creating a Helm chart template), keep in mind that the secret *MUST* be of `type: kubernetes.io/dockerconfigjson`, otherwise it will not use the credentials and will try to pull down the image as an anonymous user.
+
 ## Create Kubenetes Manifest File
 
 **hellodocker-lb.yml**
